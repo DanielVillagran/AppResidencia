@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-   show();
+ show();
 });
 
 
@@ -18,6 +18,9 @@ firebase.initializeApp(config);
 
 
 $('#guardar').click(function () {
+    var database = firebase.database();
+
+    if($("rol").val()==1){
     var name =$('#nombre').val();
     var carrera =$('#carrera').val();
     var grupo = $('#grupo').val();
@@ -27,9 +30,8 @@ $('#guardar').click(function () {
     var band = '';
 
 
-    var database = firebase.database();
     if(name != ''){
-    band ++;
+        band ++;
     }
     if(carrera != ''){
         band ++;
@@ -47,20 +49,49 @@ $('#guardar').click(function () {
         band ++;
     }
 
-if(band == 6){
-    send(name,carrera,grupo,docente,ncontrol,pass);
-    alert('Se registró el alumno')
-     $('#nombre').val('');
-     $('#carrera').val('');
-     $('#grupo').val('');
-     $('#docente').val('');
-     $('#pass').val('');
-     $('#ncontrol').val('');
-}else{
+    if(band == 6){
+        send(name,carrera,grupo,docente,ncontrol,pass);
+        alert('Se registró el alumno');
+        $('#nombre').val('');
+        $('#carrera').val('');
+        $('#grupo').val('');
+        $('#docente').val('');
+        $('#pass').val('');
+        $('#ncontrol').val('');
+    }else{
         alert('todos los campos son obligatorios');
         console.log(band);
+    }
+}else{
+     var name =$('#nombre').val();
+    var pass = $('#pass').val();
+    var email= $('#correo').val();
+    if(name != ''&&pass != ''&&email != ''){
+         sendDocente(name,email,pass);
+        alert('Se registró el Docente');
+       
+    }else{
+         alert('todos los campos son obligatorios');
+    }
+   
+   
+
 }
 });
+function sendDocente(name,email,pass) {
+    firebase.auth().signInAnonymously().then(
+        user=>{
+            firebase.database().ref(email).push({
+                name,
+                email,
+                pass
+
+            });
+        }
+
+        )
+}
+
 
 function send(name,carrera,grupo,docente,ncontrol,pass) {
     firebase.auth().signInAnonymously().then(
@@ -76,11 +107,11 @@ function send(name,carrera,grupo,docente,ncontrol,pass) {
             });
         }
 
-    )
+        )
 }
 
 $('#show').click(function () {
-   show();
+ show();
 });
 
 function show() {
@@ -111,17 +142,19 @@ $('#maestro').on('click',function () {
     $('.docente').attr('hidden','hidden');
     $('.carrera').attr('hidden','hidden');
     $('#guardarAlumno').attr('hidden','hidden');
+    $("#rol").val(2);
 
 
     $('.nombre').removeAttr('hidden');
-$('.correo').removeAttr('hidden');
-$('.password').removeAttr('hidden');
-$('#guardarMaestro').removeAttr('hidden');
+    $('.correo').removeAttr('hidden');
+    $('.password').removeAttr('hidden');
+    $('#guardarMaestro').removeAttr('hidden');
 });
 
 $('#alumno').on('click',function () {
     $('.correo').attr('hidden','hidden');
     $('#guardarMaestro').attr('hidden','hidden');
+    $("#rol").val(1);
     $('.nombre').removeAttr('hidden');
     $('.ncontrol').removeAttr('hidden');
     $('.carrera').removeAttr('hidden');
