@@ -82,7 +82,7 @@ function sendDocente(name,email,pass) {
     var rol=$("#rol").val();
     firebase.auth().signInAnonymously().then(
         user=>{
-            firebase.database().ref(email).push({
+            firebase.database().ref("users").push({
                 name,
                 email,
                 pass,
@@ -100,7 +100,7 @@ function send(name,carrera,grupo,docente,ncontrol,pass) {
     var rol=$("#rol").val();
     firebase.auth().signInAnonymously().then(
         user=>{
-            firebase.database().ref(ncontrol).push({
+            firebase.database().ref("users").push({
                 name,
                 carrera,
                 grupo,
