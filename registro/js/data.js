@@ -146,19 +146,20 @@ $('#maestro').on('click',function () {
     $('.grupo').attr('hidden','hidden');
     $('.docente').attr('hidden','hidden');
     $('.carrera').attr('hidden','hidden');
-    $('#guardarAlumno').attr('hidden','hidden');
+
     $("#rol").val(2);
 
 
     $('.nombre').removeAttr('hidden');
     $('.correo').removeAttr('hidden');
     $('.password').removeAttr('hidden');
-    $('.guardarMaestro').removeAttr('hidden');
+    $('.guardar').removeAttr('hidden');
+    $("#guardar").html("Registrar Docente");
 });
 
 $('#alumno').on('click',function () {
     $('.correo').attr('hidden','hidden');
-    $('#guardarMaestro').attr('hidden','hidden');
+
     $("#rol").val(1);
     $('.nombre').removeAttr('hidden');
     $('.ncontrol').removeAttr('hidden');
@@ -166,5 +167,6 @@ $('#alumno').on('click',function () {
     $('.grupo').removeAttr('hidden');
     $('.docente').removeAttr('hidden');
     $('.password').removeAttr('hidden');
-    $('.guardarAlumno').removeAttr('hidden');
+    $('.guardar').removeAttr('hidden');
+    $("#guardar").html("Registrar Alumno");
 });
