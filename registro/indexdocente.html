@@ -1,0 +1,95 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+  <title>Docente</title>
+  <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="_assets/css/jqm-demos.css">
+
+
+  <script src="js/jquery.js"></script>
+  <script src="_assets/js/index.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script><!-- Firebase App is always required and must be first -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-app.js"></script>
+  <!-- Add additional services that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase-database.js"></script>
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="formulario.css" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+
+  <div class="container">
+
+
+    <div class="col-md-8 order-md-1">
+      <h4 class="mb-3">Registrate</h4>
+
+      <div class="mb-3">
+        <label for="">Crea tu cuenta</label>
+        <button id="maestro" class="btn btn-danger">Maestro</button>
+        <button id="alumno" class="btn btn-dark">Alumno</button>
+      </div>
+
+          <div class="col-md-12 mb-3 nombre" hidden>
+            <label for="nombre">Nombre completo</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre"  value="" required>
+          </div>
+      <div class="col-md-12 mb-3 correo" hidden>
+        <label for="correo">Email</label>
+        <input type="email" class="form-control" id="correo" placeholder="Email"  value="" >
+      </div>
+
+      <div class="col-md-12 mb-3 ncontrol" hidden>
+        <label for="nombre">N.Control</label>
+        <input type="text" class="form-control" id="ncontrol" placeholder="N.control" value="" maxlength="8" onkeypress="return isNumberKey(event)"  required>
+      </div>
+        <div class="mb-3 carrera" hidden>
+          <label for="carrera">Carrera</label>
+          <select name="" id="carrera">
+            <option value="">Carreras</option>
+            <option value="Sistemas">Sistemas</option>
+            <option value="Gestión">Gestión</option>
+            <option value="Industrial">Industrial</option>
+            <option value="Animación">Animación</option>
+            <option value="Gastronomia">Gastronomia</option>
+            <option value="Mecatronica">Mecatronica</option>
+          </select>
+        </div>
+        <div class="mb-3 grupo" hidden>
+          <label for="grupo">Grupo</label>
+          <input type="text" class="form-control" id="grupo" maxlength="3" placeholder="Grupo">
+        </div>
+
+        <div class="mb-3 docente" hidden>
+          <label for="docente">Nombre del docente asignado</label>
+          <input type="text" class="form-control" id="docente" placeholder="Docente">
+        </div>
+      <div class="mb-3 password" hidden>
+        <label for="docente">Contraseña</label>
+        <input type="password" class="form-control" id="pass" placeholder="password">
+      </div>
+
+
+        <button id="guardarAlumno" class="ui-btn ui-btn-inline" hidden>Registrar alumno</button>
+        <button id="guardarMaestro" class="ui-btn ui-btn-inline" hidden>Registrar Maestro</button>
+
+
+    </div>
+
+
+  </div>
+  <script src="js/data.js"></script>
+
+
+</body>
+
+</html>
