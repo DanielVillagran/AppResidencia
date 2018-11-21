@@ -20,7 +20,7 @@ firebase.initializeApp(config);
 $('#guardar').click(function () {
     var database = firebase.database();
 
-    if($("rol").val()==1){
+    if($("#rol").val()==1){
     var name =$('#nombre').val();
     var carrera =$('#carrera').val();
     var grupo = $('#grupo').val();
