@@ -153,7 +153,7 @@ $('#maestro').on('click',function () {
     $('.nombre').removeAttr('hidden');
     $('.correo').removeAttr('hidden');
     $('.password').removeAttr('hidden');
-    $('#guardarMaestro').removeAttr('hidden');
+    $('.guardarMaestro').removeAttr('hidden');
 });
 
 $('#alumno').on('click',function () {
@@ -166,5 +166,5 @@ $('#alumno').on('click',function () {
     $('.grupo').removeAttr('hidden');
     $('.docente').removeAttr('hidden');
     $('.password').removeAttr('hidden');
-    $('#guardarAlumno').removeAttr('hidden');
+    $('.guardarAlumno').removeAttr('hidden');
 });
