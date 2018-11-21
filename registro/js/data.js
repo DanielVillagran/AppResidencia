@@ -79,12 +79,15 @@ $('#guardar').click(function () {
 }
 });
 function sendDocente(name,email,pass) {
+    var rol=$("#rol").val();
     firebase.auth().signInAnonymously().then(
         user=>{
             firebase.database().ref(email).push({
                 name,
                 email,
-                pass
+                pass,
+                rol 
+
 
             });
         }
@@ -94,6 +97,7 @@ function sendDocente(name,email,pass) {
 
 
 function send(name,carrera,grupo,docente,ncontrol,pass) {
+    var rol=$("#rol").val();
     firebase.auth().signInAnonymously().then(
         user=>{
             firebase.database().ref(ncontrol).push({
@@ -102,7 +106,8 @@ function send(name,carrera,grupo,docente,ncontrol,pass) {
                 grupo,
                 docente,
                 ncontrol,
-                pass
+                pass,
+                rol
 
             });
         }
