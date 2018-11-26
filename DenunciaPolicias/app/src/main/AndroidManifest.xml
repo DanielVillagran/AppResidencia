@@ -2,14 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.firebaseloginapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -25,26 +24,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+
         <activity android:name=".AccountActivity.MainActivity" />
         <activity android:name=".AccountActivity.SignupActivity" />
-        <activity android:name=".AccountActivity.ResetPasswordActivity"></activity>
-        <activity android:name=".AccountActivity.DenunciaActivity"></activity>
-        <activity android:name=".AccountActivity.DenunciasActivity"></activity>
-        <activity android:name=".AccountActivity.RespuestaActivity"></activity>
+        <activity android:name=".AccountActivity.ResetPasswordActivity" />
+        <activity android:name=".AccountActivity.DenunciaActivity" />
+        <activity android:name=".AccountActivity.DenunciasActivity" />
+        <activity android:name=".AccountActivity.RespuestaActivity" />
 
         <service android:name=".AccountActivity.MyFirebaseMessagingService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
         <service android:name=".AccountActivity.MyFirebaseInstanceIDService">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name=".AccountActivity.TeacherActivity" />
+        <activity android:name=".AccountActivity.StudentsListActivity" />
+        <activity android:name=".AccountActivity.AddAlumnoActivity" />
+        <activity android:name=".DocumentsActivity"></activity>
     </application>
 
 </manifest>

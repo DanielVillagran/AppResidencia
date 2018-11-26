@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "577422151155",
+    "firebase_url": "https://escuela-2a8e4.firebaseio.com",
+    "project_id": "escuela-2a8e4",
+    "storage_bucket": "escuela-2a8e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577422151155:android:6f7d0b7fc6806223",
+        "android_client_info": {
+          "package_name": "alumnosymaestros.tecmm.alumnosymaestros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577422151155-1vsce0fj28jmu3dk73p0klg1jktpjpv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "alumnosymaestros.tecmm.alumnosymaestros",
+            "certificate_hash": "572640599a3aad26250b10ed495f422ece2893f8"
+          }
+        },
+        {
+          "client_id": "577422151155-lemonidtnljle83l5jo076p4pffnj3lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa9TK22kkC54s213cy8tkyKMHBaib94aU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577422151155-lemonidtnljle83l5jo076p4pffnj3lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

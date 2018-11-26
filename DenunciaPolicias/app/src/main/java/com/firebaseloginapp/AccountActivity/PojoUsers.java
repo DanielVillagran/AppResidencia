@@ -38,9 +38,9 @@ public class PojoUsers {
         return telefono;
     }
 
-    public void setTelefono(String telefono) {
-        this.telefono = telefono;
-    }
+
+
+
     public PojoUsers(){
 
     }
@@ -51,5 +51,6 @@ public class PojoUsers {
         this.id = id;
         this.nombre = nombre;
         this.telefono = telefono;
+
     }
 }

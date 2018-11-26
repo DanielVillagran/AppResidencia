@@ -14,6 +14,14 @@ var config = {
     messagingSenderId: "577422151155"
 };
 firebase.initializeApp(config);
+var bd = firebase.database().ref('users');
+bd.orderByKey().on("child_added", function(snapshot) {
+    var us = snapshot.val();
+    console.log(us.name);
+    console.log(us.ncontrol);
+
+
+});
 
 
 
@@ -170,3 +178,14 @@ $('#alumno').on('click',function () {
     $('.guardar').removeAttr('hidden');
     $("#guardar").html("Registrar Alumno");
 });
+
+function login(user, password) {
+    var data = firebase.database().ref('users');
+    data.orderByKey().equalTo(user).on("child_added", function(snapshot) {
+        var us = snapshot.val();
+        console.log(us.name);
+
+
+    });
+
+}

@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "150444368158",
-    "firebase_url": "https://denunciaciudadana-e0001.firebaseio.com",
-    "project_id": "denunciaciudadana-e0001",
-    "storage_bucket": "denunciaciudadana-e0001.appspot.com"
+    "project_number": "577422151155",
+    "firebase_url": "https://escuela-2a8e4.firebaseio.com",
+    "project_id": "escuela-2a8e4",
+    "storage_bucket": "escuela-2a8e4.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:150444368158:android:c0b1cbad714219c6",
+        "mobilesdk_app_id": "1:577422151155:android:6f7d0b7fc6806223",
         "android_client_info": {
-          "package_name": "com.mobileapps.fsdev.denunciaciudadano"
+          "package_name": "alumnosymaestros.tecmm.alumnosymaestros"
         }
       },
       "oauth_client": [
         {
-          "client_id": "150444368158-kedhpn1pcu836smfiohm22vki8c9t890.apps.googleusercontent.com",
+          "client_id": "577422151155-1vsce0fj28jmu3dk73p0klg1jktpjpv9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.mobileapps.fsdev.denunciaciudadano",
-            "certificate_hash": "38ec8de4c13d701727283aaec867895b6b95c8d9"
+            "package_name": "alumnosymaestros.tecmm.alumnosymaestros",
+            "certificate_hash": "572640599a3aad26250b10ed495f422ece2893f8"
           }
         },
         {
-          "client_id": "150444368158-if97iu83jt1l9976ma212qh66vftribv.apps.googleusercontent.com",
+          "client_id": "577422151155-lemonidtnljle83l5jo076p4pffnj3lk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCg2yvbZZNvUmlMZ-PYHjthB65z-2lRgtE"
+          "current_key": "AIzaSyDa9TK22kkC54s213cy8tkyKMHBaib94aU"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "150444368158-if97iu83jt1l9976ma212qh66vftribv.apps.googleusercontent.com",
+              "client_id": "577422151155-lemonidtnljle83l5jo076p4pffnj3lk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
@@ -52,28 +52,28 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:150444368158:android:deaae79cdf056ac3",
+        "mobilesdk_app_id": "1:577422151155:android:deaae79cdf056ac3",
         "android_client_info": {
           "package_name": "com.firebaseloginapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "150444368158-p2ufrvdflg7up7464qlukkgaullg7tpn.apps.googleusercontent.com",
+          "client_id": "577422151155-7qgebut0gls61eohrs9mkoov42d141h9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.firebaseloginapp",
-            "certificate_hash": "38ec8de4c13d701727283aaec867895b6b95c8d9"
+            "certificate_hash": "572640599a3aad26250b10ed495f422ece2893f8"
           }
         },
         {
-          "client_id": "150444368158-if97iu83jt1l9976ma212qh66vftribv.apps.googleusercontent.com",
+          "client_id": "577422151155-lemonidtnljle83l5jo076p4pffnj3lk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCg2yvbZZNvUmlMZ-PYHjthB65z-2lRgtE"
+          "current_key": "AIzaSyDa9TK22kkC54s213cy8tkyKMHBaib94aU"
         }
       ],
       "services": {
@@ -84,7 +84,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "150444368158-if97iu83jt1l9976ma212qh66vftribv.apps.googleusercontent.com",
+              "client_id": "577422151155-lemonidtnljle83l5jo076p4pffnj3lk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
