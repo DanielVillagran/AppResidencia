@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "150444368158",
+    "firebase_url": "https://denunciaciudadana-e0001.firebaseio.com",
+    "project_id": "denunciaciudadana-e0001",
+    "storage_bucket": "denunciaciudadana-e0001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150444368158:android:c0b1cbad714219c6",
+        "android_client_info": {
+          "package_name": "com.mobileapps.fsdev.denunciaciudadano"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150444368158-kedhpn1pcu836smfiohm22vki8c9t890.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mobileapps.fsdev.denunciaciudadano",
+            "certificate_hash": "38ec8de4c13d701727283aaec867895b6b95c8d9"
+          }
+        },
+        {
+          "client_id": "150444368158-if97iu83jt1l9976ma212qh66vftribv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg2yvbZZNvUmlMZ-PYHjthB65z-2lRgtE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150444368158-if97iu83jt1l9976ma212qh66vftribv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150444368158:android:deaae79cdf056ac3",
+        "android_client_info": {
+          "package_name": "com.firebaseloginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150444368158-p2ufrvdflg7up7464qlukkgaullg7tpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firebaseloginapp",
+            "certificate_hash": "38ec8de4c13d701727283aaec867895b6b95c8d9"
+          }
+        },
+        {
+          "client_id": "150444368158-if97iu83jt1l9976ma212qh66vftribv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg2yvbZZNvUmlMZ-PYHjthB65z-2lRgtE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150444368158-if97iu83jt1l9976ma212qh66vftribv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
