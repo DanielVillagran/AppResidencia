@@ -30,6 +30,7 @@ public class AddAlumnoActivity extends Activity {
     private Spinner semestre,carrera;
     private ProgressBar progressBar;
     private FirebaseAuth auth;
+    private FirebaseAuth authAlumnos;
     private  String maestro;
 
     @Override
@@ -111,7 +112,7 @@ public class AddAlumnoActivity extends Activity {
 
         progressBar.setVisibility(View.VISIBLE);
         //create user
-        auth.createUserWithEmailAndPassword(email, password)
+        authAlumnos.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(AddAlumnoActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
