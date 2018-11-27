@@ -30,6 +30,7 @@ public class AddAlumnoActivity extends Activity {
     private Spinner semestre,carrera;
     private ProgressBar progressBar;
     private FirebaseAuth auth;
+    private  String maestro;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,6 +47,9 @@ public class AddAlumnoActivity extends Activity {
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         addItemsOnSpinner2();
         addItemsOnSpinner3();
+
+        maestro= auth.getCurrentUser().getEmail();
+
     }
     public void addItemsOnSpinner2() {
 
@@ -120,14 +124,13 @@ public class AddAlumnoActivity extends Activity {
                             Toast.makeText(AddAlumnoActivity.this, "Authentication failed." + task.getException(),
                                     Toast.LENGTH_SHORT).show();
                         } else {
-                            String maestro= auth.getCurrentUser().getEmail();
 
                             DatabaseReference ref = FirebaseDatabase.getInstance().getReference("alumnos");
 
                             DatabaseReference mensajeRef = ref.child("alumnos");
                             String id = ref.push().getKey();
 
-                            PojoAlumnos u= new PojoAlumnos(id, nombre.getText().toString().trim(),ncontrol.getText().toString().trim(),maestro,"0",semestre.getSelectedItem().toString(),carrera.getSelectedItem().toString(), "");
+                            PojoAlumnos u= new PojoAlumnos(id, nombre.getText().toString().trim(),ncontrol.getText().toString().trim(),maestro,"0",semestre.getSelectedItem().toString(), "",carrera.getSelectedItem().toString());
                             ref.child(id).setValue(u);
                             startActivity(new Intent(AddAlumnoActivity.this, TeacherActivity.class));
                             finish();

@@ -65,7 +65,7 @@
       <file leaf-file-name="PojoAlumnos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoAlumnos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="235">
               <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="e#807#808#0" expanded="true" />
@@ -117,19 +117,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddAlumnoActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddAlumnoActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="776">
-              <caret line="122" column="77" lean-forward="false" selection-start-line="122" selection-start-column="77" selection-end-line="122" selection-end-column="77" />
+            <state relative-caret-position="246">
+              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1936#1944#0" expanded="true" />
-                <element signature="e#2224#2232#0" expanded="true" />
-                <element signature="e#2578#2586#0" expanded="true" />
-                <element signature="e#2886#2894#0" expanded="true" />
-                <element signature="e#4035#5698#0" expanded="true" />
-                <element signature="e#5697#5698#0" expanded="true" />
+                <element signature="e#2018#2026#0" expanded="true" />
+                <element signature="e#2306#2314#0" expanded="true" />
+                <element signature="e#2660#2668#0" expanded="true" />
+                <element signature="e#2968#2976#0" expanded="true" />
+                <element signature="e#4117#5702#0" expanded="true" />
+                <element signature="e#5701#5702#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,8 +163,8 @@
       <file leaf-file-name="StudentsListActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/StudentsListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1051">
-              <caret line="100" column="58" lean-forward="false" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
+            <state relative-caret-position="149">
+              <caret line="128" column="21" lean-forward="false" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -185,11 +185,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DocumentsActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DocumentsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/DocumentsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="56" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="56" />
+            <state relative-caret-position="90">
+              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -206,9 +206,11 @@
       <find>btnSignUp</find>
       <find>polices</find>
       <find>btn_sign_out</find>
-      <find>user</find>
       <find>list</find>
       <find>listV</find>
+      <find>user</find>
+      <find>auth</find>
+      <find>maes</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -2087,9 +2089,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoAlumnos.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/SignupActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_alumno.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/TeacherActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_students_list.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/DocumentsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/StudentsListActivity.java" />
       </list>
     </option>
@@ -2613,9 +2616,61 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/SignupActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="104" column="90" lean-forward="false" selection-start-line="104" selection-start-column="90" selection-end-line="104" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/TeacherActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="75" lean-forward="false" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_students_list.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="181" column="39" lean-forward="false" selection-start-line="175" selection-start-column="8" selection-end-line="181" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_documents.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoAlumnos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="235">
           <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="e#807#808#0" expanded="true" />
@@ -2654,10 +2709,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/SignupActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/DocumentsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="104" column="90" lean-forward="false" selection-start-line="104" selection-start-column="90" selection-end-line="104" selection-end-column="90" />
+        <state relative-caret-position="90">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/StudentsListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="128" column="21" lean-forward="false" selection-start-line="128" selection-start-column="21" selection-end-line="128" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2666,77 +2729,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="776">
-          <caret line="122" column="77" lean-forward="false" selection-start-line="122" selection-start-column="77" selection-end-line="122" selection-end-column="77" />
+        <state relative-caret-position="246">
+          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1936#1944#0" expanded="true" />
-            <element signature="e#2224#2232#0" expanded="true" />
-            <element signature="e#2578#2586#0" expanded="true" />
-            <element signature="e#2886#2894#0" expanded="true" />
-            <element signature="e#4035#5698#0" expanded="true" />
-            <element signature="e#5697#5698#0" expanded="true" />
+            <element signature="e#2018#2026#0" expanded="true" />
+            <element signature="e#2306#2314#0" expanded="true" />
+            <element signature="e#2660#2668#0" expanded="true" />
+            <element signature="e#2968#2976#0" expanded="true" />
+            <element signature="e#4117#5702#0" expanded="true" />
+            <element signature="e#5701#5702#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/TeacherActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="75" lean-forward="false" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_students_list.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="181" column="39" lean-forward="false" selection-start-line="175" selection-start-column="8" selection-end-line="181" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/StudentsListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1051">
-          <caret line="100" column="58" lean-forward="false" selection-start-line="100" selection-start-column="58" selection-end-line="100" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_documents.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/DocumentsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="56" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>

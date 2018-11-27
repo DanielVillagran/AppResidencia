@@ -47,6 +47,7 @@ public class StudentsListActivity extends AppCompatActivity {
             progressBar.setVisibility(View.GONE);
         }
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        final String usermail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
 
 
         ref.addChildEventListener(new ChildEventListener() {
@@ -55,11 +56,17 @@ public class StudentsListActivity extends AppCompatActivity {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 if(dataSnapshot.exists()) {
                     PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+                    System.out.println("Maestro:"+" "+post.getMaestro());
+                    System.out.println("Usuario:"+" "+usermail);
+
+                    if(post.getMaestro().trim().matches(usermail)) {
+                        System.out.println("si entra");
 
                         listalumnos.add(post.getNcontrol());
                         pojoList.add(post);
                         System.out.println(post.getNombre());
-                    System.out.println(post.getNcontrol());
+                        System.out.println(post.getNcontrol());
+                    }
 
                 }else{
                     progressBar.setVisibility(View.GONE);
@@ -70,9 +77,16 @@ public class StudentsListActivity extends AppCompatActivity {
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
                 if(dataSnapshot.exists()) {
                     PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+                    System.out.println("Maestro:"+" "+post.getMaestro());
+                    System.out.println("Usuario:"+" "+usermail);
+                    if(post.getMaestro().trim().matches(usermail)) {
+                        System.out.println("si entra");
+
                         listalumnos.add(post.getNcontrol());
                         pojoList.add(post);
                         System.out.println(post.getNombre());
+                        System.out.println(post.getNcontrol());
+                    }
 
                 }else{
                 }
@@ -81,12 +95,18 @@ public class StudentsListActivity extends AppCompatActivity {
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
+
                 if(dataSnapshot.exists()) {
                     PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
-                    if(post.getStatus().contains("0")) {
+                    System.out.println("Maestro:"+" "+post.getMaestro());
+                    System.out.println("Usuario:"+" "+usermail);
+                    if(post.getMaestro().trim().matches(usermail)) {
+                        System.out.println("si entra");
+
                         listalumnos.add(post.getNcontrol());
                         pojoList.add(post);
                         System.out.println(post.getNombre());
+                        System.out.println(post.getNcontrol());
                     }
                 }else{
                 }
@@ -97,10 +117,15 @@ public class StudentsListActivity extends AppCompatActivity {
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
                 if(dataSnapshot.exists()) {
                     PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
-                    if(post.getStatus().contains("0")) {
+                    System.out.println("Maestro:"+" "+post.getMaestro());
+                    System.out.println("Usuario:"+" "+usermail);
+                    if(post.getMaestro().trim().matches(usermail)) {
+                        System.out.println("si entra");
+
                         listalumnos.add(post.getNcontrol());
                         pojoList.add(post);
                         System.out.println(post.getNombre());
+                        System.out.println(post.getNcontrol());
                     }
                 }else{
                 }
