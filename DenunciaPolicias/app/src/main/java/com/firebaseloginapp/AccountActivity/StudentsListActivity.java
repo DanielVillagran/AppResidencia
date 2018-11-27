@@ -42,6 +42,8 @@ public class StudentsListActivity extends AppCompatActivity {
     private ListView lista ;
     ArrayAdapter<String> itemsAdapter;
     DatabaseReference alumnosRef = FirebaseDatabase.getInstance().getReference("alumnos");
+    FirebaseUser user;
+    String usermail;
 
 
 
@@ -49,14 +51,44 @@ public class StudentsListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_students_list);
+        Bundle bundle = getIntent().getExtras();
+        listalumnos=bundle.getStringArrayList("lista");
+
 
         if (progressBar != null) {
             progressBar.setVisibility(View.GONE);
         }
-        final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        final String usermail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+        user = FirebaseAuth.getInstance().getCurrentUser();
+        usermail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+        refreshList();
 
 
+
+//get firebase auth instance
+        auth = FirebaseAuth.getInstance();
+        lista=(ListView) findViewById(R.id.list_alumnos);
+        lista.setAdapter(itemsAdapter);
+
+        lista.setOnItemClickListener(
+                new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        String cities = String.valueOf(parent.getItemAtPosition(position));
+                        PojoAlumnos p=pojoList.get(position);
+                        String idAlumno = p.getId();
+                        String ncontrol = p.getNcontrol();
+                        confirmDialog(idAlumno,ncontrol);
+
+                    }
+
+
+                });
+
+
+
+
+    }
+    private void refreshList(){
         ref.addChildEventListener(new ChildEventListener() {
 
 
@@ -147,38 +179,6 @@ public class StudentsListActivity extends AppCompatActivity {
         });
         itemsAdapter =
                 new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listalumnos);
-//get firebase auth instance
-        auth = FirebaseAuth.getInstance();
-        lista=(ListView) findViewById(R.id.list_alumnos);
-        lista.setAdapter(itemsAdapter);
-
-        lista.setOnItemClickListener(
-                new AdapterView.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                        String cities = String.valueOf(parent.getItemAtPosition(position));
-                        PojoAlumnos p=pojoList.get(position);
-                        String idAlumno = p.getId();
-                        String ncontrol = p.getNcontrol();
-                        confirmDialog(idAlumno,ncontrol);
-
-//                        Intent myIntent = new Intent(view.getContext(), DenunciasActivity.class);
-//                        Bundle bundle= new Bundle();
-//                        bundle.putString("Nombre",p.getNombre());
-//
-//
-//                        myIntent.putExtras(bundle);
-//                        startActivityForResult(myIntent, 2);
-
-
-                    }
-
-
-                });
-
-
-
-
     }
 
     private void confirmDialog(final String idalumno, String ncontrol) {
@@ -195,7 +195,7 @@ public class StudentsListActivity extends AppCompatActivity {
 
                                 dataSnapshot.getRef().child("status").setValue("1");
                                 Toast.makeText(StudentsListActivity.this,"Alumno liberado",Toast.LENGTH_SHORT).show();
-
+                                refreshList();
 
                             }
                             @Override

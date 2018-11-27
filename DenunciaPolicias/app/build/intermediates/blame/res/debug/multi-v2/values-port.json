@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/jorge/Documents/AppResidencia/DenunciaPolicias/Y:\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\Y:\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "/Users/jorge/Documents/AppResidencia/DenunciaPolicias/C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,25 @@
             ]
         },
         {
-            "outputFile": "/Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "/Users/jorge/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/2d2c34cf62357a857b0d71756b482c6e/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
