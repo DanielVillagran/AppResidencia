@@ -23,4 +23,7 @@ public class TeacherActivity extends Activity {
     public void add_alumno(View v){
         startActivity(new Intent(TeacherActivity.this, AddAlumnoActivity.class));
     }
+    public void ver_liberados(View v){
+        startActivity(new Intent(TeacherActivity.this, ReadyAlumnosActivity.class));
+    }
 }

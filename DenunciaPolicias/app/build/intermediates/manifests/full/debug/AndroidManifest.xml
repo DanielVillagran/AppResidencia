@@ -74,7 +74,8 @@
         <activity android:name="com.firebaseloginapp.AccountActivity.TeacherActivity" />
         <activity android:name="com.firebaseloginapp.AccountActivity.StudentsListActivity" />
         <activity android:name="com.firebaseloginapp.AccountActivity.AddAlumnoActivity" />
-        <activity android:name="com.firebaseloginapp.DocumentsActivity" />
+        <activity android:name="com.firebaseloginapp.AccountActivity.DocumentsActivity" />
+        <activity android:name="com.firebaseloginapp.AccountActivity.ReadyAlumnosActivity" />
         <!--
          FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"

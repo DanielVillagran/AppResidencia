@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-56:12
+ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-57:12
 MERGED from [com.android.support:design:27.0.2] /Users/jorge/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/d5bd3c91fe686a2e74464d2a39b11d56/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/jorge/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/2d2c34cf62357a857b0d71756b482c6e/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jorge/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/95fccf30c0c258f090d46ce82a64bcfd/AndroidManifest.xml:2:1-11:12
@@ -49,20 +49,20 @@ MERGED from [com.google.firebase:firebase-storage-common-license:11.4.2] /Users/
 MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/jorge/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.4.2.aar/b39019d3aa30ebca69bab2369b28ce63/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] /Users/jorge/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.4.2.aar/13680185a96aa05b2d784260bc5980e1/AndroidManifest.xml:2:1-6:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/jorge/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/ac247bc1f020abc50544513c5b0d0ff8/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-56:12
-INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-56:12
+INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-57:12
+INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-57:12
 	package
 		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-56:12
+		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-57:12
 		INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml
-		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-56:12
+		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:1-57:12
 		INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:2:11-69
@@ -95,7 +95,7 @@ ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/An
 	android:name
 		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:10:22-77
 application
-ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:13:5-54:19
+ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:13:5-55:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jorge/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/95fccf30c0c258f090d46ce82a64bcfd/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/jorge/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/95fccf30c0c258f090d46ce82a64bcfd/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:11.4.2] /Users/jorge/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.4.2.aar/1caf25a877256c9d5dc2b49b78e9779b/AndroidManifest.xml:19:5-20:19
@@ -240,10 +240,14 @@ activity#com.firebaseloginapp.AccountActivity.AddAlumnoActivity
 ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:52:9-71
 	android:name
 		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:52:19-68
-activity#com.firebaseloginapp.DocumentsActivity
-ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:53:9-64
+activity#com.firebaseloginapp.AccountActivity.DocumentsActivity
+ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:53:9-71
 	android:name
-		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:53:19-52
+		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:53:19-68
+activity#com.firebaseloginapp.AccountActivity.ReadyAlumnosActivity
+ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:54:9-83
+	android:name
+		ADDED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml:54:19-71
 uses-sdk
 INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/src/main/AndroidManifest.xml
