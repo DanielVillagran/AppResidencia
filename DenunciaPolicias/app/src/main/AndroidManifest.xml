@@ -51,7 +51,8 @@
         <activity android:name=".AccountActivity.StudentsListActivity" />
         <activity android:name=".AccountActivity.AddAlumnoActivity" />
         <activity android:name=".AccountActivity.DocumentsActivity" />
-        <activity android:name=".AccountActivity.ReadyAlumnosActivity"></activity>
+        <activity android:name=".AccountActivity.ReadyAlumnosActivity" />
+        <activity android:name=".AccountActivity.CompleteInfoActivity"></activity>
     </application>
 
 </manifest>
