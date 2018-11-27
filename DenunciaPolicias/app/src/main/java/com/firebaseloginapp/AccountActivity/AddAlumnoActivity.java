@@ -38,6 +38,7 @@ public class AddAlumnoActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_alumno);
         auth = FirebaseAuth.getInstance();
+        authAlumnos=FirebaseAuth.getInstance();
         btnSignIn = (Button) findViewById(R.id.sign_in_button);
         btnSignUp = (Button) findViewById(R.id.sign_up_button);
         inputEmail = (EditText) findViewById(R.id.email);
@@ -116,6 +117,7 @@ public class AddAlumnoActivity extends Activity {
                 .addOnCompleteListener(AddAlumnoActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
+                        authAlumnos.signOut();
                         Toast.makeText(AddAlumnoActivity.this, "Alumno Creado!" , Toast.LENGTH_SHORT).show();
                         progressBar.setVisibility(View.GONE);
                         // If sign in fails, display a message to the user. If sign in succeeds

@@ -66,8 +66,7 @@ public class StudentsListActivity extends AppCompatActivity {
 
 //get firebase auth instance
         auth = FirebaseAuth.getInstance();
-        lista=(ListView) findViewById(R.id.list_alumnos);
-        lista.setAdapter(itemsAdapter);
+
 
         lista.setOnItemClickListener(
                 new AdapterView.OnItemClickListener() {
@@ -179,6 +178,8 @@ public class StudentsListActivity extends AppCompatActivity {
         });
         itemsAdapter =
                 new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listalumnos);
+        lista=(ListView) findViewById(R.id.list_alumnos);
+        lista.setAdapter(itemsAdapter);
     }
 
     private void confirmDialog(final String idalumno, String ncontrol) {

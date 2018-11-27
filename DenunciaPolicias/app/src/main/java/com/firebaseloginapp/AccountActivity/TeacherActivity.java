@@ -160,16 +160,12 @@ public class TeacherActivity extends Activity {
                 new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listalumnos);
 
         auth = FirebaseAuth.getInstance();
-        lista=(ListView) findViewById(R.id.lista);
-        lista.setAdapter(itemsAdapter);
 
     }
     public void ver_alumnos(View v){
         Intent myIntent = new Intent(TeacherActivity.this, StudentsListActivity.class);
         Bundle bundle= new Bundle();
-        bundle.putParcelable("datos", (Parcelable) pojoList);
-        bundle.putStringArrayList("lista", (ArrayList<String>) listalumnos);
-
+        bundle.putStringArrayList("datos", (ArrayList<String>) listalumnos);
         myIntent.putExtras(bundle);
         startActivityForResult(myIntent, 2);
         //startActivity(new Intent(TeacherActivity.this, StudentsListActivity.class));
