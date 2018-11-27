@@ -37,6 +37,7 @@ public class TeacherActivity extends Activity {
     ArrayAdapter<String> itemsAdapter;
     DatabaseReference alumnosRef = FirebaseDatabase.getInstance().getReference("alumnos");
     private ProgressBar progressBar;
+String usermail;
 
 
     @Override
@@ -66,7 +67,7 @@ public class TeacherActivity extends Activity {
                 }
             }
         };
-        final String usermail = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+       usermail =  user.getEmail();
 
         ref.addChildEventListener(new ChildEventListener() {
 
@@ -156,19 +157,23 @@ public class TeacherActivity extends Activity {
 
             }
         });
-        itemsAdapter =
-                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listalumnos);
-
-        auth = FirebaseAuth.getInstance();
+//        itemsAdapter =
+//                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listalumnos);
+//
+//        auth = FirebaseAuth.getInstance();
+//        lista=(ListView) findViewById(R.id.lista);
+//        lista.setAdapter(itemsAdapter);
 
     }
     public void ver_alumnos(View v){
-        Intent myIntent = new Intent(TeacherActivity.this, StudentsListActivity.class);
-        Bundle bundle= new Bundle();
-        bundle.putStringArrayList("datos", (ArrayList<String>) listalumnos);
-        myIntent.putExtras(bundle);
-        startActivityForResult(myIntent, 2);
-        //startActivity(new Intent(TeacherActivity.this, StudentsListActivity.class));
+//        Intent myIntent = new Intent(TeacherActivity.this, StudentsListActivity.class);
+//        Bundle bundle= new Bundle();
+//        bundle.putParcelable("datos", (Parcelable) pojoList);
+//        bundle.putStringArrayList("lista", (ArrayList<String>) listalumnos);
+//
+//        myIntent.putExtras(bundle);
+//        startActivityForResult(myIntent, 2);
+        startActivity(new Intent(TeacherActivity.this, StudentsListActivity.class));
     }
     public void ver_documentos(View v){
         startActivity(new Intent(TeacherActivity.this, LoginActivity.class));
