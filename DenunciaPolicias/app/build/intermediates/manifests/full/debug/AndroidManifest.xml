@@ -75,7 +75,7 @@
         <activity android:name="com.firebaseloginapp.AccountActivity.AddAlumnoActivity" />
         <activity android:name="com.firebaseloginapp.AccountActivity.DocumentsActivity" />
         <activity android:name="com.firebaseloginapp.AccountActivity.ReadyAlumnosActivity" />
-        <activity android:name="com.firebaseloginapp.CompleteInfoActivity" />
+        <activity android:name="com.firebaseloginapp.AccountActivity.CompleteInfoActivity" />
         <!--
          FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
