@@ -127,7 +127,6 @@ public class AddAlumnoActivity extends Activity {
 
                             DatabaseReference ref = FirebaseDatabase.getInstance().getReference("alumnos");
 
-                            DatabaseReference mensajeRef = ref.child("alumnos");
                             String id = ref.push().getKey();
 
                             PojoAlumnos u= new PojoAlumnos(id, nombre.getText().toString().trim(),ncontrol.getText().toString().trim(),maestro,"0",semestre.getSelectedItem().toString(), "",carrera.getSelectedItem().toString());
