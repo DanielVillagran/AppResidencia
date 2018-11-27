@@ -1,8 +1,10 @@
 package com.firebaseloginapp.AccountActivity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.ProgressBar;
@@ -134,6 +136,32 @@ public class ReadyAlumnosActivity extends Activity {
         auth = FirebaseAuth.getInstance();
         lista=(ListView) findViewById(R.id.list_alumnos);
         lista.setAdapter(itemsAdapter);
+        lista.setOnItemClickListener(
+                new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                        String cities = String.valueOf(parent.getItemAtPosition(position));
+                        PojoAlumnos p=pojoList.get(position);
+                        cities= p.getId()+".-"+p.getNcontrol()+".-"+p.getCarrera()+".-"+p.getMaestro()+".-"+p.getSemestre()+".-"+p.getStatus()
+                                +".-"+p.getNombre();
+                        //Toast.makeText(MainActivity.this, cities, Toast.LENGTH_LONG).show();
+                        Intent myIntent = new Intent(view.getContext(), ViewAlumnoActivity.class);
+                        Bundle bundle= new Bundle();
+                        bundle.putString("nombre",p.getNombre());
+                        bundle.putString("carrera",p.getCarrera());
+                        bundle.putString("maestro",p.getMaestro());
+                        bundle.putString("ncontrol",p.getNcontrol());
+                        bundle.putString("semestre",p.getSemestre());
+                        bundle.putString("status",p.getStatus());
+                        bundle.putString("id",p.getId());
+                        myIntent.putExtras(bundle);
+                        startActivityForResult(myIntent, 2);
+
+
+                    }
+
+
+                });
 
 
 
