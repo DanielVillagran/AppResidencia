@@ -29,7 +29,7 @@
         android:textColorHint="@android:color/white" />
     <Button
         android:id="@+id/btnImprimir"
-        android:text="Tomar Foto"
+        android:text="Imprimir Archivo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -37,11 +37,5 @@
         android:background="@color/colorAccent"/>
 
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorAccent"
-        android:layout_marginTop="20dp"
-        android:text="Imprimir F" />
 
 </LinearLayout>
