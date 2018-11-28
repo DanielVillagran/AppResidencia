@@ -16,6 +16,8 @@ import android.widget.Toast;
 import com.firebaseloginapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
@@ -38,6 +40,16 @@ public class AddAlumnoActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_alumno);
         auth = FirebaseAuth.getInstance();
+        FirebaseOptions firebaseOptions = new FirebaseOptions.Builder()
+                .setDatabaseUrl("https://escuela-2a8e4.firebaseio.com")
+                .setApiKey("escuela-2a8e4")
+                .setApplicationId("AIzaSyDa9TK22kkC54s213cy8tkyKMHBaib94aU").build();
+
+        try { FirebaseApp myApp = FirebaseApp.initializeApp(getApplicationContext(), firebaseOptions, "escuela");
+            authAlumnos = FirebaseAuth.getInstance(myApp);
+        } catch (IllegalStateException e){
+            authAlumnos = FirebaseAuth.getInstance(FirebaseApp.getInstance("escuela"));
+        }
         authAlumnos=FirebaseAuth.getInstance();
         btnSignIn = (Button) findViewById(R.id.sign_in_button);
         btnSignUp = (Button) findViewById(R.id.sign_up_button);
@@ -91,9 +103,6 @@ public class AddAlumnoActivity extends Activity {
     public void registrar_alumno(View v) {
         final String email = inputEmail.getText().toString().trim();
         String password = inputPassword.getText().toString().trim();
-
-
-
         if (TextUtils.isEmpty(email)) {
             Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
             return;
