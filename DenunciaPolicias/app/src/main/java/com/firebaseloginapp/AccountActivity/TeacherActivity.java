@@ -51,7 +51,6 @@ String usermail;
         }
         final FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
-
         authListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
@@ -67,96 +66,95 @@ String usermail;
                 }
             }
         };
-       usermail =  user.getEmail();
 
-        ref.addChildEventListener(new ChildEventListener() {
-
-
-            @Override
-            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                if(dataSnapshot.exists()) {
-                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
-                    System.out.println("Maestro:"+" "+post.getMaestro());
-                    System.out.println("Usuario:"+" "+usermail);
-
-                    if(post.getMaestro().trim().matches(usermail) && post.getStatus().matches("0")) {
-                        System.out.println("si entra");
-
-                        listalumnos.add(post.getNcontrol());
-                        pojoList.add(post);
-                        System.out.println(post.getNombre());
-                        System.out.println(post.getNcontrol());
-                    }
-
-                }else{
-                    progressBar.setVisibility(View.GONE);
-                }
-            }
-
-            @Override
-            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-                if(dataSnapshot.exists()) {
-                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
-                    System.out.println("Maestro:"+" "+post.getMaestro());
-                    System.out.println("Usuario:"+" "+usermail);
-                    if(post.getMaestro().trim().matches(usermail) && post.getStatus().matches("0")) {
-                        System.out.println("si entra");
-
-                        listalumnos.add(post.getNcontrol());
-                        pojoList.add(post);
-                        System.out.println(post.getNombre());
-                        System.out.println(post.getNcontrol());
-                    }
-
-                }else{
-                }
-
-            }
-
-            @Override
-            public void onChildRemoved(DataSnapshot dataSnapshot) {
-
-                if(dataSnapshot.exists()) {
-                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
-                    System.out.println("Maestro:"+" "+post.getMaestro());
-                    System.out.println("Usuario:"+" "+usermail);
-                    if(post.getMaestro().trim().matches(usermail) && post.getStatus().matches("0")) {
-                        System.out.println("si entra");
-
-                        listalumnos.add(post.getNcontrol());
-                        pojoList.add(post);
-                        System.out.println(post.getNombre());
-                        System.out.println(post.getNcontrol());
-                    }
-                }else{
-                }
-
-            }
-
-            @Override
-            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-                if(dataSnapshot.exists()) {
-                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
-                    System.out.println("Maestro:"+" "+post.getMaestro());
-                    System.out.println("Usuario:"+" "+usermail);
-                    if(post.getMaestro().trim().matches(usermail) && post.getStatus().matches("0")) {
-                        System.out.println("si entra");
-
-                        listalumnos.add(post.getNcontrol());
-                        pojoList.add(post);
-                        System.out.println(post.getNombre());
-                        System.out.println(post.getNcontrol());
-                    }
-                }else{
-                }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-                System.out.println("The read failed: " + databaseError.getCode());
-
-            }
-        });
+//        ref.addChildEventListener(new ChildEventListener() {
+//
+//
+//            @Override
+//            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+//                if(dataSnapshot.exists()) {
+//                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+//                    System.out.println("Maestro:"+" "+post.getMaestro());
+//                    System.out.println("Usuario:"+" "+usermail);
+//
+//                    if(post.getMaestro().trim().matches(usermail) && post.getStatus().matches("0")) {
+//                        System.out.println("si entra");
+//
+//                        listalumnos.add(post.getNcontrol());
+//                        pojoList.add(post);
+//                        System.out.println(post.getNombre());
+//                        System.out.println(post.getNcontrol());
+//                    }
+//
+//                }else{
+//                    progressBar.setVisibility(View.GONE);
+//                }
+//            }
+//
+//            @Override
+//            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+//                if(dataSnapshot.exists()) {
+//                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+//                    System.out.println("Maestro:"+" "+post.getMaestro());
+//                    System.out.println("Usuario:"+" "+usermail);
+//                    if(post.getMaestro().trim().matches(usermail) && post.getStatus().matches("0")) {
+//                        System.out.println("si entra");
+//
+//                        listalumnos.add(post.getNcontrol());
+//                        pojoList.add(post);
+//                        System.out.println(post.getNombre());
+//                        System.out.println(post.getNcontrol());
+//                    }
+//
+//                }else{
+//                }
+//
+//            }
+//
+//            @Override
+//            public void onChildRemoved(DataSnapshot dataSnapshot) {
+//
+//                if(dataSnapshot.exists()) {
+//                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+//                    System.out.println("Maestro:"+" "+post.getMaestro());
+//                    System.out.println("Usuario:"+" "+usermail);
+//                    if(post.getMaestro().trim().matches(usermail) && post.getStatus().matches("0")) {
+//                        System.out.println("si entra");
+//
+//                        listalumnos.add(post.getNcontrol());
+//                        pojoList.add(post);
+//                        System.out.println(post.getNombre());
+//                        System.out.println(post.getNcontrol());
+//                    }
+//                }else{
+//                }
+//
+//            }
+//
+//            @Override
+//            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+//                if(dataSnapshot.exists()) {
+//                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+//                    System.out.println("Maestro:"+" "+post.getMaestro());
+//                    System.out.println("Usuario:"+" "+usermail);
+//                    if(post.getMaestro().trim().matches(usermail) && post.getStatus().matches("0")) {
+//                        System.out.println("si entra");
+//
+//                        listalumnos.add(post.getNcontrol());
+//                        pojoList.add(post);
+//                        System.out.println(post.getNombre());
+//                        System.out.println(post.getNcontrol());
+//                    }
+//                }else{
+//                }
+//            }
+//
+//            @Override
+//            public void onCancelled(DatabaseError databaseError) {
+//                System.out.println("The read failed: " + databaseError.getCode());
+//
+//            }
+//        });
 //        itemsAdapter =
 //                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listalumnos);
 //
@@ -176,7 +174,7 @@ String usermail;
         startActivity(new Intent(TeacherActivity.this, StudentsListActivity.class));
     }
     public void ver_documentos(View v){
-        startActivity(new Intent(TeacherActivity.this, LoginActivity.class));
+        startActivity(new Intent(TeacherActivity.this, AsesoriaActivity.class));
     }
     public void add_alumno(View v){
         startActivity(new Intent(TeacherActivity.this, AddAlumnoActivity.class));

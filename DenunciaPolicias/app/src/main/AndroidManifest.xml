@@ -52,7 +52,9 @@
         <activity android:name=".AccountActivity.AddAlumnoActivity" />
         <activity android:name=".AccountActivity.DocumentsActivity" />
         <activity android:name=".AccountActivity.ReadyAlumnosActivity" />
-        <activity android:name=".AccountActivity.CompleteInfoActivity"></activity>
+        <activity android:name=".AccountActivity.AsesoriaActivity" />
+
+        <activity android:name=".AccountActivity.AlumnoHome"></activity>
     </application>
 
 </manifest>

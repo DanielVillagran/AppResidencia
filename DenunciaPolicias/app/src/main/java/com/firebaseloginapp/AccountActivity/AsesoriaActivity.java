@@ -56,6 +56,8 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -84,8 +86,8 @@ public class AsesoriaActivity extends AppCompatActivity {
     List<Pojo> denuncias;
     public static String denunciasId;
 
-    DatabaseReference ref = FirebaseDatabase.getInstance().getReference("respuestas");
-    DatabaseReference myref = FirebaseDatabase.getInstance().getReference("denuncias");
+    DatabaseReference ref = FirebaseDatabase.getInstance().getReference("alumnos");
+    DatabaseReference myref = FirebaseDatabase.getInstance().getReference("alumnos");
     DatabaseReference mensajeRef = ref.child("respuestas");
 
     @Override
@@ -111,10 +113,14 @@ public class AsesoriaActivity extends AppCompatActivity {
                     PdfWriter writer = PdfWriter.getInstance(documento, ficheroPdf);
                     HeaderFooter cabecera = new HeaderFooter(new Phrase(
                             "Los shulos, baby"), false);
+                    String cad = md5("putos");
                     HeaderFooter pie = new HeaderFooter(new Phrase(
-                            "La firma va aqui"), false);
-                    documento.setHeader(cabecera);
+                            "Firma digital: "+cad), false);
                     documento.setFooter(pie);
+//                    HeaderFooter pie = new HeaderFooter(new Phrase(
+//                            "La firma va aqui"), false);
+                    documento.setHeader(cabecera);
+
                     documento.open();
                     Font font = FontFactory.getFont(FontFactory.HELVETICA, 28,
                             Font.BOLD, Color.black);
@@ -127,6 +133,8 @@ public class AsesoriaActivity extends AppCompatActivity {
                     documento.add(new Paragraph("Asesor: ", font));
                     documento.add(new Paragraph("Asesoria recibida: "+mensajeEditText.getText(), font));
                     documento.add(new Paragraph("Fecha: "+df.format(new Date())+" a las "+de.format(new Date()), font));
+
+
 
 
                     font = FontFactory.getFont(FontFactory.HELVETICA, 42, Font.BOLD,
@@ -148,9 +156,28 @@ public class AsesoriaActivity extends AppCompatActivity {
 
                     // Cerramos el documento.
                     documento.close();
+
                 }
             }
         });
+    }
+    public String md5(String s) {
+        try {
+            // Create MD5 Hash
+            MessageDigest digest = java.security.MessageDigest.getInstance("MD5");
+            digest.update(s.getBytes());
+            byte messageDigest[] = digest.digest();
+
+            // Create Hex String
+            StringBuffer hexString = new StringBuffer();
+            for (int i=0; i<messageDigest.length; i++)
+                hexString.append(Integer.toHexString(0xFF & messageDigest[i]));
+            return hexString.toString();
+
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return "";
     }
 
     public static File crearFichero(String nombreFichero) throws IOException {

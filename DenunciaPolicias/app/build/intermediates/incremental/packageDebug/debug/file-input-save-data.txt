@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Nov 27 16:03:13 CST 2018
+#Wed Nov 28 10:10:27 CST 2018
 1.base=/Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/build/intermediates/transforms/dexMerger/debug/87
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

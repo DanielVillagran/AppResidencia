@@ -1,4 +1,4 @@
-#Tue Nov 27 16:03:13 CST 2018
+#Wed Nov 28 10:10:27 CST 2018
 base.0=/Users/jorge/Documents/AppResidencia/DenunciaPolicias/app/build/intermediates/transforms/dexMerger/debug/87
 path.1=classes.dex
 renamed.1=classes2.dex
