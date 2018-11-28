@@ -97,14 +97,7 @@ public class AsesoriaActivity extends AppCompatActivity {
         storageReference = storage.getReference();
         s = (Spinner) findViewById(R.id.spinner);
         mensajeEditText = (EditText) findViewById(R.id.mensajeEditText);
-        btnChoose.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent cameraIntent = new Intent(
-                        MediaStore.ACTION_IMAGE_CAPTURE);
-                startActivityForResult(cameraIntent, 1);
-            }
-        });
+
         final Button button = findViewById(R.id.btnImprimir);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
