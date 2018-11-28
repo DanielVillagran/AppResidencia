@@ -91,7 +91,7 @@ public class AsesoriaActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_respuesta);
+        setContentView(R.layout.activity_asesoria);
 
         storage = FirebaseStorage.getInstance();
         storageReference = storage.getReference();
