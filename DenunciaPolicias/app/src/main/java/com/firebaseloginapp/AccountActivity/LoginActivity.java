@@ -103,7 +103,7 @@ public class LoginActivity extends AppCompatActivity {
         if (auth.getCurrentUser() != null) {
             boolean maestro=false;
             for (PojoMaestros p : pojoList){
-                if(auth.getCurrentUser().getEmail().equals(p.getEmail())){
+                if(auth.getCurrentUser().getEmail().trim().matches(p.getEmail().trim())){
                     maestro=true;
                     break;
                 }

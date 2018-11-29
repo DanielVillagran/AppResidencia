@@ -233,7 +233,7 @@ public class AddAlumnoActivity extends Activity {
         //create user
         boolean exist=true;
         for (PojoAlumnos p: pojoList){
-            if(p.getNcontrol().equals(ncontrol.getText())){
+            if(p.getNcontrol().trim().matches(ncontrol.getText().toString())){
                 exist=false;
                 break;
             }
