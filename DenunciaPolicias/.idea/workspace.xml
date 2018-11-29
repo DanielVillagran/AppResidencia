@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c83919a3-c901-481f-bb7c-738afcc5c19e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -63,8 +62,8 @@
       <file leaf-file-name="AddAlumnoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="235" column="76" lean-forward="false" selection-start-line="235" selection-start-column="76" selection-end-line="235" selection-end-column="76" />
+            <state relative-caret-position="17">
+              <caret line="250" column="34" lean-forward="true" selection-start-line="250" selection-start-column="34" selection-end-line="250" selection-end-column="34" />
               <folding>
                 <element signature="e#5195#5203#0" expanded="true" />
                 <element signature="e#5483#5491#0" expanded="true" />
@@ -101,19 +100,19 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="105" column="86" lean-forward="false" selection-start-line="105" selection-start-column="86" selection-end-line="105" selection-end-column="86" />
+            <state relative-caret-position="34">
+              <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
               <folding>
-                <marker date="1543505964619" expanded="false" signature="4335:4427" ph="(v) → {" />
-                <marker date="1543505964619" expanded="false" signature="4521:4536" ph="}" />
-                <marker date="1543505964619" expanded="false" signature="4576:4668" ph="(v) → {" />
-                <marker date="1543505964619" expanded="false" signature="4769:4784" ph="}" />
-                <marker date="1543505964619" expanded="false" signature="4824:4916" ph="(v) → {" />
-                <marker date="1543505964619" expanded="false" signature="5696:5857" ph="(task) → {" />
-                <marker date="1543505964619" expanded="false" signature="6460:6496" ph="&quot;Contraseña demasiada corta, esctibe almenos 6 digitos!&quot;" />
-                <marker date="1543505964619" expanded="false" signature="6619:6650" ph="&quot;Error de autentificacion, revisa tu email y password&quot;" />
-                <marker date="1543505964619" expanded="false" signature="7028:7059" ph="}" />
-                <marker date="1543505964619" expanded="false" signature="7070:7085" ph="}" />
+                <marker date="1543507865218" expanded="false" signature="4335:4427" ph="(v) → {" />
+                <marker date="1543507865218" expanded="false" signature="4521:4536" ph="}" />
+                <marker date="1543507865218" expanded="false" signature="4576:4668" ph="(v) → {" />
+                <marker date="1543507865218" expanded="false" signature="4769:4784" ph="}" />
+                <marker date="1543507865218" expanded="false" signature="4824:4916" ph="(v) → {" />
+                <marker date="1543507865218" expanded="false" signature="5696:5857" ph="(task) → {" />
+                <marker date="1543507865218" expanded="false" signature="6460:6496" ph="&quot;Contraseña demasiada corta, esctibe almenos 6 digitos!&quot;" />
+                <marker date="1543507865218" expanded="false" signature="6619:6650" ph="&quot;Error de autentificacion, revisa tu email y password&quot;" />
+                <marker date="1543507865218" expanded="false" signature="7641:7672" ph="}" />
+                <marker date="1543507865218" expanded="false" signature="7683:7698" ph="}" />
               </folding>
             </state>
           </provider>
@@ -2302,7 +2301,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543506695015" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543507894391" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2350,7 +2349,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543506695015" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543507894391" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2533,7 +2532,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543506695019" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543507894391" />
       </method>
     </configuration>
     <list size="1">
@@ -2649,7 +2648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543452532690</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Primer commit usando la mamada de android studio">
+      <created>1543506698969</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1543506698969</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2790,16 +2796,16 @@
         <state relative-caret-position="1425">
           <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding>
-            <marker date="1543505964619" expanded="false" signature="4335:4427" ph="(v) → {" />
-            <marker date="1543505964619" expanded="false" signature="4521:4536" ph="}" />
-            <marker date="1543505964619" expanded="false" signature="4576:4668" ph="(v) → {" />
-            <marker date="1543505964619" expanded="false" signature="4769:4784" ph="}" />
-            <marker date="1543505964619" expanded="false" signature="4824:4916" ph="(v) → {" />
-            <marker date="1543505964619" expanded="false" signature="5696:5857" ph="(task) → {" />
-            <marker date="1543505964619" expanded="false" signature="6460:6496" ph="&quot;Contraseña demasiada corta, esctibe almenos 6 digitos!&quot;" />
-            <marker date="1543505964619" expanded="false" signature="6619:6650" ph="&quot;Error de autentificacion, revisa tu email y password&quot;" />
-            <marker date="1543505964619" expanded="false" signature="7028:7059" ph="}" />
-            <marker date="1543505964619" expanded="false" signature="7070:7085" ph="}" />
+            <marker date="1543507865218" expanded="false" signature="4335:4427" ph="(v) → {" />
+            <marker date="1543507865218" expanded="false" signature="4521:4536" ph="}" />
+            <marker date="1543507865218" expanded="false" signature="4576:4668" ph="(v) → {" />
+            <marker date="1543507865218" expanded="false" signature="4769:4784" ph="}" />
+            <marker date="1543507865218" expanded="false" signature="4824:4916" ph="(v) → {" />
+            <marker date="1543507865218" expanded="false" signature="5696:5857" ph="(task) → {" />
+            <marker date="1543507865218" expanded="false" signature="6460:6496" ph="&quot;Contraseña demasiada corta, esctibe almenos 6 digitos!&quot;" />
+            <marker date="1543507865218" expanded="false" signature="6619:6650" ph="&quot;Error de autentificacion, revisa tu email y password&quot;" />
+            <marker date="1543507865218" expanded="false" signature="7641:7672" ph="}" />
+            <marker date="1543507865218" expanded="false" signature="7683:7698" ph="}" />
           </folding>
         </state>
       </provider>
@@ -3204,8 +3210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="235" column="76" lean-forward="false" selection-start-line="235" selection-start-column="76" selection-end-line="235" selection-end-column="76" />
+        <state relative-caret-position="17">
+          <caret line="250" column="34" lean-forward="true" selection-start-line="250" selection-start-column="34" selection-end-line="250" selection-end-column="34" />
           <folding>
             <element signature="e#5195#5203#0" expanded="true" />
             <element signature="e#5483#5491#0" expanded="true" />
@@ -3217,19 +3223,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="105" column="86" lean-forward="false" selection-start-line="105" selection-start-column="86" selection-end-line="105" selection-end-column="86" />
+        <state relative-caret-position="34">
+          <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding>
-            <marker date="1543505964619" expanded="false" signature="4335:4427" ph="(v) → {" />
-            <marker date="1543505964619" expanded="false" signature="4521:4536" ph="}" />
-            <marker date="1543505964619" expanded="false" signature="4576:4668" ph="(v) → {" />
-            <marker date="1543505964619" expanded="false" signature="4769:4784" ph="}" />
-            <marker date="1543505964619" expanded="false" signature="4824:4916" ph="(v) → {" />
-            <marker date="1543505964619" expanded="false" signature="5696:5857" ph="(task) → {" />
-            <marker date="1543505964619" expanded="false" signature="6460:6496" ph="&quot;Contraseña demasiada corta, esctibe almenos 6 digitos!&quot;" />
-            <marker date="1543505964619" expanded="false" signature="6619:6650" ph="&quot;Error de autentificacion, revisa tu email y password&quot;" />
-            <marker date="1543505964619" expanded="false" signature="7028:7059" ph="}" />
-            <marker date="1543505964619" expanded="false" signature="7070:7085" ph="}" />
+            <marker date="1543507865218" expanded="false" signature="4335:4427" ph="(v) → {" />
+            <marker date="1543507865218" expanded="false" signature="4521:4536" ph="}" />
+            <marker date="1543507865218" expanded="false" signature="4576:4668" ph="(v) → {" />
+            <marker date="1543507865218" expanded="false" signature="4769:4784" ph="}" />
+            <marker date="1543507865218" expanded="false" signature="4824:4916" ph="(v) → {" />
+            <marker date="1543507865218" expanded="false" signature="5696:5857" ph="(task) → {" />
+            <marker date="1543507865218" expanded="false" signature="6460:6496" ph="&quot;Contraseña demasiada corta, esctibe almenos 6 digitos!&quot;" />
+            <marker date="1543507865218" expanded="false" signature="6619:6650" ph="&quot;Error de autentificacion, revisa tu email y password&quot;" />
+            <marker date="1543507865218" expanded="false" signature="7641:7672" ph="}" />
+            <marker date="1543507865218" expanded="false" signature="7683:7698" ph="}" />
           </folding>
         </state>
       </provider>

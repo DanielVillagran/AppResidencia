@@ -177,9 +177,21 @@ public class LoginActivity extends AppCompatActivity {
                                         Toast.makeText(LoginActivity.this, getString(R.string.auth_failed), Toast.LENGTH_LONG).show();
                                     }
                                 } else {
-                                    Intent intent = new Intent(LoginActivity.this, TeacherActivity.class);
-                                    startActivity(intent);
+                                    boolean maestro=false;
+                                    for (PojoMaestros p : pojoList){
+                                        if(auth.getCurrentUser().getEmail().trim().matches(p.getEmail().trim())){
+                                            maestro=true;
+                                            break;
+                                        }
+
+                                    }
+                                    if(maestro) {
+                                        startActivity(new Intent(LoginActivity.this, TeacherActivity.class));
+                                    }else{
+                                        startActivity(new Intent(LoginActivity.this, AlumnoHome.class));
+                                    }
                                     finish();
+
                                 }
                             }
                         });
