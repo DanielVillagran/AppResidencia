@@ -40,5 +40,19 @@
             android:layout_height="wrap_content"
             android:onClick="ver_liberados"
             android:text="Ver Alumnos Liberados" />
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buscar_alumnos"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/signout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cerrarsesion"
+            android:text="Cerrar sesion" />
     </LinearLayout>
 </RelativeLayout>

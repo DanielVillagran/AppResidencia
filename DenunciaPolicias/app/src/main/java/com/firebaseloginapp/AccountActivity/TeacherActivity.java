@@ -182,6 +182,16 @@ String usermail;
     public void ver_liberados(View v){
         startActivity(new Intent(TeacherActivity.this, ReadyAlumnosActivity.class));
     }
+
+    public void buscar_alumnos(View v){
+        startActivity(new Intent(TeacherActivity.this, SearchActivity.class));
+    }
+    public void cerrarsesion(View v){
+        auth.signOut();
+        startActivity(new Intent(TeacherActivity.this, SignupActivity.class));
+
+
+    }
     @SuppressLint("SetTextI18n")
     private void setDataToView(FirebaseUser user) {
 

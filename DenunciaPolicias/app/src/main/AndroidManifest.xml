@@ -53,8 +53,9 @@
         <activity android:name=".AccountActivity.DocumentsActivity" />
         <activity android:name=".AccountActivity.ReadyAlumnosActivity" />
         <activity android:name=".AccountActivity.AsesoriaActivity" />
-
-        <activity android:name=".AccountActivity.AlumnoHome"></activity>
+        <activity android:name=".AccountActivity.ViewAlumnoActivity" />
+        <activity android:name=".AccountActivity.AlumnoHome" />
+        <activity android:name=".AccountActivity.SearchActivity"></activity>
     </application>
 
 </manifest>
