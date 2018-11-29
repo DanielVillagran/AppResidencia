@@ -11,9 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c83919a3-c901-481f-bb7c-738afcc5c19e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoMaestros.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,15 +59,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddAlumnoActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddAlumnoActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="54" column="83" lean-forward="false" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
+            <state relative-caret-position="267">
+              <caret line="269" column="106" lean-forward="false" selection-start-line="269" selection-start-column="106" selection-end-line="269" selection-end-column="106" />
               <folding>
-                <element signature="e#6653#8204#0" expanded="false" />
-                <element signature="e#8203#8204#0" expanded="false" />
-                <marker date="1543450556599" expanded="true" signature="6449:8213" ph="{...}" />
+                <element signature="e#5195#5203#0" expanded="true" />
+                <element signature="e#5483#5491#0" expanded="true" />
+                <element signature="e#5837#5845#0" expanded="true" />
+                <element signature="e#6145#6153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,9 +110,20 @@
       <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="107" column="26" lean-forward="false" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="318">
+              <caret line="69" column="4" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+              <folding>
+                <marker date="1543452283316" expanded="false" signature="4320:4412" ph="(v) → {" />
+                <marker date="1543452283316" expanded="false" signature="4506:4521" ph="}" />
+                <marker date="1543452283316" expanded="false" signature="4561:4653" ph="(v) → {" />
+                <marker date="1543452283316" expanded="false" signature="4754:4769" ph="}" />
+                <marker date="1543452283316" expanded="false" signature="4809:4901" ph="(v) → {" />
+                <marker date="1543452283316" expanded="false" signature="5681:5842" ph="(task) → {" />
+                <marker date="1543452283316" expanded="false" signature="6445:6481" ph="&quot;Contraseña demasiada corta, esctibe almenos 6 digitos!&quot;" />
+                <marker date="1543452283316" expanded="false" signature="6604:6635" ph="&quot;Error de autentificacion, revisa tu email y password&quot;" />
+                <marker date="1543452283316" expanded="false" signature="7013:7044" ph="}" />
+                <marker date="1543452283316" expanded="false" signature="7055:7070" ph="}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,7 +138,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PojoMaestros.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PojoMaestros.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoMaestros.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
@@ -1945,7 +1956,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/TeacherActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/CompleteInfoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_complete_info.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_asesoria.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AsesoriaActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
@@ -1954,6 +1964,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoAlumnos.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoMaestros.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java" />
       </list>
     </option>
   </component>
@@ -2300,7 +2311,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543452085962" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543452508628" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2348,7 +2359,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543452085962" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543452508628" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2531,7 +2542,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543452085962" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543452508628" />
       </method>
     </configuration>
     <list size="1">
@@ -2633,11 +2644,19 @@
       <option name="project" value="LOCAL" />
       <updated>1543450917095</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Primer commit usando la mamada de android studio">
+      <created>1543452104105</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543452104105</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1378" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2714,9 +2733,10 @@
         <state relative-caret-position="1695">
           <caret line="113" column="43" lean-forward="false" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="43" />
           <folding>
-            <element signature="e#6653#8204#0" expanded="false" />
-            <element signature="e#8203#8204#0" expanded="false" />
-            <marker date="1543450556599" expanded="true" signature="6449:8213" ph="{...}" />
+            <element signature="e#5195#5203#0" expanded="true" />
+            <element signature="e#5483#5491#0" expanded="true" />
+            <element signature="e#5837#5845#0" expanded="true" />
+            <element signature="e#6145#6153#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2771,7 +2791,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1425">
           <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1543452283316" expanded="false" signature="4320:4412" ph="(v) → {" />
+            <marker date="1543452283316" expanded="false" signature="4506:4521" ph="}" />
+            <marker date="1543452283316" expanded="false" signature="4561:4653" ph="(v) → {" />
+            <marker date="1543452283316" expanded="false" signature="4754:4769" ph="}" />
+            <marker date="1543452283316" expanded="false" signature="4809:4901" ph="(v) → {" />
+            <marker date="1543452283316" expanded="false" signature="5681:5842" ph="(task) → {" />
+            <marker date="1543452283316" expanded="false" signature="6445:6481" ph="&quot;Contraseña demasiada corta, esctibe almenos 6 digitos!&quot;" />
+            <marker date="1543452283316" expanded="false" signature="6604:6635" ph="&quot;Error de autentificacion, revisa tu email y password&quot;" />
+            <marker date="1543452283316" expanded="false" signature="7013:7044" ph="}" />
+            <marker date="1543452283316" expanded="false" signature="7055:7070" ph="}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3061,18 +3092,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="54" column="83" lean-forward="false" selection-start-line="54" selection-start-column="83" selection-end-line="54" selection-end-column="83" />
-          <folding>
-            <element signature="e#6653#8204#0" expanded="false" />
-            <element signature="e#8203#8204#0" expanded="false" />
-            <marker date="1543450556599" expanded="true" signature="6449:8213" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/RespuestaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -3161,14 +3180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="107" column="26" lean-forward="false" selection-start-line="107" selection-start-column="26" selection-end-line="107" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoMaestros.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -3189,6 +3200,38 @@
             <element signature="e#900#901#0" expanded="true" />
             <element signature="e#942#943#0" expanded="true" />
             <element signature="e#976#977#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="69" column="4" lean-forward="true" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding>
+            <marker date="1543452283316" expanded="false" signature="4320:4412" ph="(v) → {" />
+            <marker date="1543452283316" expanded="false" signature="4506:4521" ph="}" />
+            <marker date="1543452283316" expanded="false" signature="4561:4653" ph="(v) → {" />
+            <marker date="1543452283316" expanded="false" signature="4754:4769" ph="}" />
+            <marker date="1543452283316" expanded="false" signature="4809:4901" ph="(v) → {" />
+            <marker date="1543452283316" expanded="false" signature="5681:5842" ph="(task) → {" />
+            <marker date="1543452283316" expanded="false" signature="6445:6481" ph="&quot;Contraseña demasiada corta, esctibe almenos 6 digitos!&quot;" />
+            <marker date="1543452283316" expanded="false" signature="6604:6635" ph="&quot;Error de autentificacion, revisa tu email y password&quot;" />
+            <marker date="1543452283316" expanded="false" signature="7013:7044" ph="}" />
+            <marker date="1543452283316" expanded="false" signature="7055:7070" ph="}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="269" column="106" lean-forward="false" selection-start-line="269" selection-start-column="106" selection-end-line="269" selection-end-column="106" />
+          <folding>
+            <element signature="e#5195#5203#0" expanded="true" />
+            <element signature="e#5483#5491#0" expanded="true" />
+            <element signature="e#5837#5845#0" expanded="true" />
+            <element signature="e#6145#6153#0" expanded="true" />
           </folding>
         </state>
       </provider>

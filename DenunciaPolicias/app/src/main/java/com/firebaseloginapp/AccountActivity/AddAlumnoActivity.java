@@ -21,6 +21,9 @@ import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -37,6 +40,10 @@ public class AddAlumnoActivity extends Activity {
     private FirebaseAuth authAlumnos;
     private  String maestro;
     public static final String REGEX_NUMEROS = "^[0-9]+$";
+    DatabaseReference ref = FirebaseDatabase.getInstance().getReference("alumnos");
+    DatabaseReference mensajeRef = ref.child("alumnos");
+    List<String> listalumnos= new ArrayList<>();
+    List<PojoAlumnos> pojoList= new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +61,68 @@ public class AddAlumnoActivity extends Activity {
         } catch (IllegalStateException e){
             authAlumnos = FirebaseAuth.getInstance(FirebaseApp.getInstance("escuela"));
         }
+        ref.addChildEventListener(new ChildEventListener() {
+
+
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                if(dataSnapshot.exists()) {
+                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+                    System.out.println("Maestro:"+" "+post.getMaestro());
+
+                    pojoList.add(post);
+
+                }else{
+                    progressBar.setVisibility(View.GONE);
+                }
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+                if(dataSnapshot.exists()) {
+                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+                    System.out.println("Maestro:"+" "+post.getMaestro());
+
+                    pojoList.add(post);
+
+                }else{
+                }
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+                if(dataSnapshot.exists()) {
+                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+                    System.out.println("Maestro:"+" "+post.getMaestro());
+
+                    pojoList.add(post);
+
+
+                }else{
+                }
+
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+                if(dataSnapshot.exists()) {
+                    PojoAlumnos post = dataSnapshot.getValue(PojoAlumnos.class);
+                    System.out.println("Maestro:"+" "+post.getMaestro());
+
+                    pojoList.add(post);
+
+                }else{
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+                System.out.println("The read failed: " + databaseError.getCode());
+
+            }
+        });
         authAlumnos=FirebaseAuth.getInstance();
         btnSignIn = (Button) findViewById(R.id.sign_in_button);
         btnSignUp = (Button) findViewById(R.id.sign_up_button);
@@ -162,32 +231,45 @@ public class AddAlumnoActivity extends Activity {
 
         progressBar.setVisibility(View.VISIBLE);
         //create user
-        authAlumnos.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(AddAlumnoActivity.this, new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        authAlumnos.signOut();
-                        Toast.makeText(AddAlumnoActivity.this, "Alumno Creado!" , Toast.LENGTH_SHORT).show();
-                        progressBar.setVisibility(View.GONE);
-                        // If sign in fails, display a message to the user. If sign in succeeds
-                        // the auth state listener will be notified and logic to handle the
-                        // signed in user can be handled in the listener.
-                        if (!task.isSuccessful()) {
-                            Toast.makeText(AddAlumnoActivity.this, "Authentication failed." + task.getException(),
-                                    Toast.LENGTH_SHORT).show();
-                        } else {
+        boolean exist=true;
+        for (PojoAlumnos p: pojoList){
+            if(p.getNcontrol().equals(ncontrol.getText())){
+                exist=false;
+                break;
+            }
 
-                            DatabaseReference ref = FirebaseDatabase.getInstance().getReference("alumnos");
+        }
+        if(exist) {
+            authAlumnos.createUserWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(AddAlumnoActivity.this, new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            authAlumnos.signOut();
+                            Toast.makeText(AddAlumnoActivity.this, "Alumno Creado!", Toast.LENGTH_SHORT).show();
+                            progressBar.setVisibility(View.GONE);
+                            // If sign in fails, display a message to the user. If sign in succeeds
+                            // the auth state listener will be notified and logic to handle the
+                            // signed in user can be handled in the listener.
+                            if (!task.isSuccessful()) {
+                                Toast.makeText(AddAlumnoActivity.this, "Authentication failed." + task.getException(),
+                                        Toast.LENGTH_SHORT).show();
+                            } else {
 
-                            String id = ref.push().getKey();
+                                DatabaseReference ref = FirebaseDatabase.getInstance().getReference("alumnos");
 
-                            PojoAlumnos u= new PojoAlumnos(id, nombre.getText().toString().trim(),ncontrol.getText().toString().trim(),maestro,"0",semestre.getSelectedItem().toString(), "",carrera.getSelectedItem().toString());
-                            ref.child(id).setValue(u);
-                            startActivity(new Intent(AddAlumnoActivity.this, TeacherActivity.class));
-                            finish();
+                                String id = ref.push().getKey();
+
+                                PojoAlumnos u = new PojoAlumnos(id, nombre.getText().toString().trim(), ncontrol.getText().toString().trim(), maestro, "0", semestre.getSelectedItem().toString(), "", carrera.getSelectedItem().toString());
+                                ref.child(id).setValue(u);
+                                startActivity(new Intent(AddAlumnoActivity.this, TeacherActivity.class));
+                                finish();
+                            }
                         }
-                    }
-                });
+                    });
+        }else{
+            Toast.makeText(AddAlumnoActivity.this, "EL numero de control de ese alumno ya esta registrado.",
+                    Toast.LENGTH_SHORT).show();
+        }
 
     }
 
