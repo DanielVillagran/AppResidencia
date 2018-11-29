@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
@@ -25,6 +26,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 public class AddAlumnoActivity extends Activity {
     private EditText inputEmail, inputPassword,nombre,ncontrol;
@@ -34,6 +36,7 @@ public class AddAlumnoActivity extends Activity {
     private FirebaseAuth auth;
     private FirebaseAuth authAlumnos;
     private  String maestro;
+    public static final String REGEX_NUMEROS = "^[0-9]+$";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +47,7 @@ public class AddAlumnoActivity extends Activity {
                 .setDatabaseUrl("https://escuela-2a8e4.firebaseio.com")
                 .setApiKey("escuela-2a8e4")
                 .setApplicationId("AIzaSyDa9TK22kkC54s213cy8tkyKMHBaib94aU").build();
+
 
         try { FirebaseApp myApp = FirebaseApp.initializeApp(getApplicationContext(), firebaseOptions, "escuela");
             authAlumnos = FirebaseAuth.getInstance(myApp);
@@ -103,6 +107,11 @@ public class AddAlumnoActivity extends Activity {
     public void registrar_alumno(View v) {
         final String email = inputEmail.getText().toString().trim();
         String password = inputPassword.getText().toString().trim();
+        String name = nombre.getText().toString().trim();
+        String nucontrol = ncontrol.getText().toString().trim();
+        Pattern patron = Pattern.compile(REGEX_NUMEROS) ;
+        carrera = (Spinner)findViewById(R.id.carrera);
+        semestre = (Spinner)findViewById(R.id.semestre);
         if (TextUtils.isEmpty(email)) {
             Toast.makeText(getApplicationContext(), "Enter email address!", Toast.LENGTH_SHORT).show();
             return;
@@ -113,12 +122,43 @@ public class AddAlumnoActivity extends Activity {
             return;
         }
 
+        if (TextUtils.isEmpty(name)) {
+            Toast.makeText(getApplicationContext(), "Enter name!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if (TextUtils.isEmpty(nucontrol)) {
+            Toast.makeText(getApplicationContext(), "Enter no. control!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if(nucontrol.length()<8 || nucontrol.length()>8){
+            Toast.makeText(getApplicationContext(),"el numero de control debe contener 8 digitos",Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if(!patron.matcher(nucontrol).matches()){
+            Toast.makeText(getApplicationContext(),"numero de control debe contener solo numeros",Toast.LENGTH_SHORT).show();
+            return;
+        }
 
 
         if (password.length() < 6) {
             Toast.makeText(getApplicationContext(), "Contraseña muy corta, debe ser mayor a 6 caracteres!", Toast.LENGTH_SHORT).show();
             return;
         }
+        if(carrera.getSelectedItem().toString().equals("Carrera")){
+            Toast.makeText(getApplicationContext(),"selecciona una carrera",Toast.LENGTH_SHORT).show();
+            return;
+
+        }
+
+        if(semestre.getSelectedItem().toString().equals("Semestre")){
+            Toast.makeText(getApplicationContext(),"selecciona una semestre",Toast.LENGTH_SHORT).show();
+            return;
+        }
+        if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+            Toast.makeText(getApplicationContext(),"email invalido",Toast.LENGTH_SHORT).show();
+            return;
+        }
+
 
         progressBar.setVisibility(View.VISIBLE);
         //create user
