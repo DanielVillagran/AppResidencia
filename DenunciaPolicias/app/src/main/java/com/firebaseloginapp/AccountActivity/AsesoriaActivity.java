@@ -73,12 +73,14 @@ public class AsesoriaActivity extends AppCompatActivity {
     FirebaseStorage storage;
     StorageReference storageReference;
     private final static String NOMBRE_DIRECTORIO = "PDF";
-    private final static String NOMBRE_DOCUMENTO = "nombredelwey.pdf";
+    private static String NOMBRE_DOCUMENTO = "nombredelwey.pdf";
     private final static String ETIQUETA_ERROR = "ERROR";
     Bitmap bitmap;
     private Spinner s;
+    static File ficheroTemporal;
     Date d= new Date();
     SimpleDateFormat df= new SimpleDateFormat("dd-MM-yyyy");
+    SimpleDateFormat documentodate= new SimpleDateFormat("ddMMyyyy");
     SimpleDateFormat de= new SimpleDateFormat("hh:mm");
     private String filePath;
     private final int PICK_IMAGE_REQUEST = 71;
@@ -99,6 +101,15 @@ public class AsesoriaActivity extends AppCompatActivity {
         storageReference = storage.getReference();
         s = (Spinner) findViewById(R.id.spinner);
         mensajeEditText = (EditText) findViewById(R.id.mensajeEditText);
+        Bundle extras = getIntent().getExtras();
+        final String nombre=extras.getString("nombre");
+        NOMBRE_DOCUMENTO=nombre.replaceAll(" ","")+documentodate.format(new Date())+".pdf";
+        final String ncontrol=extras.getString("ncontrol");
+        final String carrera=extras.getString("carrera");
+        final String asesor=extras.getString("asesor");
+        final ProgressDialog progressDialog = new ProgressDialog(this);
+        progressDialog.setTitle("Uploading...");
+        progressDialog.show();
 
         final Button button = findViewById(R.id.btnImprimir);
         button.setOnClickListener(new View.OnClickListener() {
@@ -127,10 +138,11 @@ public class AsesoriaActivity extends AppCompatActivity {
                     documento.add(new Paragraph("Datos del estudiante",font));
                      font = FontFactory.getFont(FontFactory.HELVETICA, 22,
                             Font.BOLD, Color.black);
-                    documento.add(new Paragraph("Nombre: ", font));
-                    documento.add(new Paragraph("Carrera: ", font));
-                    documento.add(new Paragraph("Empresa: ", font));
-                    documento.add(new Paragraph("Asesor: ", font));
+                    documento.add(new Paragraph("Nombre: "+nombre, font));
+                    documento.add(new Paragraph("Numero de control: "+ncontrol, font));
+                    documento.add(new Paragraph("Carrera: "+carrera, font));
+                    //documento.add(new Paragraph("Empresa: ", font));
+                    documento.add(new Paragraph("Asesor: "+asesor, font));
                     documento.add(new Paragraph("Asesoria recibida: "+mensajeEditText.getText(), font));
                     documento.add(new Paragraph("Fecha: "+df.format(new Date())+" a las "+de.format(new Date()), font));
 
@@ -156,6 +168,39 @@ public class AsesoriaActivity extends AppCompatActivity {
 
                     // Cerramos el documento.
                     documento.close();
+                    StorageReference ref = storageReference.child("asesorias/"+ NOMBRE_DOCUMENTO);
+                    Uri i=Uri.fromFile(ficheroTemporal);
+                    ref.putFile(i)
+                            .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
+                                @Override
+                                public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                                    progressDialog.dismiss();
+                                    Toast.makeText(AsesoriaActivity.this, "Uploaded", Toast.LENGTH_SHORT).show();
+                                }
+                            })
+                            .addOnFailureListener(new OnFailureListener() {
+                                @Override
+                                public void onFailure(@NonNull Exception e) {
+                                    progressDialog.dismiss();
+                                    Toast.makeText(AsesoriaActivity.this, "Failed "+e.getMessage(), Toast.LENGTH_SHORT).show();
+                                }
+                            })
+                            .addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
+                                @Override
+                                public void onProgress(UploadTask.TaskSnapshot taskSnapshot) {
+                                    double progress = (100.0*taskSnapshot.getBytesTransferred()/taskSnapshot
+                                            .getTotalByteCount());
+                                    progressDialog.setMessage("Uploaded "+(int)progress+"%");
+                                }
+                            });
+                    DatabaseReference refe = FirebaseDatabase.getInstance().getReference("documentos");
+
+                    String id = refe.push().getKey();
+
+                    PojoDocumentos u = new PojoDocumentos(ncontrol,id,NOMBRE_DOCUMENTO);
+                    refe.child(id).setValue(u);
+                    startActivity(new Intent(AsesoriaActivity.this, AlumnoHome.class));
+                    finish();
 
                 }
             }
@@ -185,6 +230,7 @@ public class AsesoriaActivity extends AppCompatActivity {
         File fichero = null;
         if (ruta != null)
             fichero = new File(ruta, nombreFichero);
+        ficheroTemporal=fichero;
         return fichero;
     }
 

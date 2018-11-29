@@ -13,11 +13,12 @@ public class PojoAlumnos {
     private String semestre;
     private String documento;
     private String carrera;
+    private String email;
 
     public PojoAlumnos() {
     }
 
-    public PojoAlumnos(String id, String nombre, String ncontrol, String maestro, String status, String semestre, String documento, String carrera) {
+    public PojoAlumnos(String id, String nombre, String ncontrol, String maestro, String email, String status, String semestre, String documento, String carrera) {
         this.id = id;
         this.nombre = nombre;
         this.ncontrol = ncontrol;
@@ -26,6 +27,15 @@ public class PojoAlumnos {
         this.semestre = semestre;
         this.documento = documento;
         this.carrera = carrera;
+        this.email=email;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getId() {

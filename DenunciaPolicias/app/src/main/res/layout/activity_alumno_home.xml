@@ -13,7 +13,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="215dp"
-        android:onClick="create doc"
+        android:onClick="create_doc"
         android:text="Crear Documento" />
 
     <TextView
