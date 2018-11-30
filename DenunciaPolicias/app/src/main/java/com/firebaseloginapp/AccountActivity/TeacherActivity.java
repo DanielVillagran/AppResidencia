@@ -174,7 +174,7 @@ String usermail;
         startActivity(new Intent(TeacherActivity.this, StudentsListActivity.class));
     }
     public void ver_documentos(View v){
-        startActivity(new Intent(TeacherActivity.this, AsesoriaActivity.class));
+        startActivity(new Intent(TeacherActivity.this, DocumentsActivity.class));
     }
     public void add_alumno(View v){
         startActivity(new Intent(TeacherActivity.this, AddAlumnoActivity.class));
