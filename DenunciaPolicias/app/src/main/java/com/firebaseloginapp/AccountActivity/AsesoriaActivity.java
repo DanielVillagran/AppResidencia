@@ -107,7 +107,7 @@ public class AsesoriaActivity extends AppCompatActivity {
         final String ncontrol=extras.getString("ncontrol");
         final String carrera=extras.getString("carrera");
         final String asesor=extras.getString("asesor");
-        final String email=extras.getString("email");
+        final String email=extras.getString("correo");
         final ProgressDialog progressDialog = new ProgressDialog(this);
 //        progressDialog.setTitle("Uploading...");
 //        progressDialog.show();
