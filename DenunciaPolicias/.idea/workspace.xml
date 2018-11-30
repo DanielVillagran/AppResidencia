@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b53f6d9-7b04-494b-9261-b6e67bcac8ca" name="Default" comment="Commit del bebe Villagrana">
+    <list default="true" id="5b53f6d9-7b04-494b-9261-b6e67bcac8ca" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AlumnoHome.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AlumnoHome.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AsesoriaActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AsesoriaActivity.java" />
@@ -69,8 +69,8 @@
       <file leaf-file-name="AsesoriaActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AsesoriaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="109" column="51" lean-forward="false" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
+            <state relative-caret-position="157">
+              <caret line="110" column="35" lean-forward="false" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -79,8 +79,8 @@
       <file leaf-file-name="AlumnoHome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AlumnoHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="198" column="31" lean-forward="false" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
+            <state relative-caret-position="245">
+              <caret line="199" column="78" lean-forward="false" selection-start-line="199" selection-start-column="78" selection-end-line="199" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -2434,7 +2434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543542651464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit del bebe Villagrana">
+      <created>1543544110010</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543544110010</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2529,14 +2536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/DocumentsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -2545,18 +2544,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/DocumentsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AlumnoHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="198" column="31" lean-forward="false" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
+        <state relative-caret-position="245">
+          <caret line="199" column="78" lean-forward="false" selection-start-line="199" selection-start-column="78" selection-end-line="199" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AsesoriaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="109" column="51" lean-forward="false" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
+        <state relative-caret-position="157">
+          <caret line="110" column="35" lean-forward="false" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
           <folding />
         </state>
       </provider>

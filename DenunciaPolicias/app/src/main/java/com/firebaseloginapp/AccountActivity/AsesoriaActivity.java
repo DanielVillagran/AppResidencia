@@ -106,8 +106,9 @@ public class AsesoriaActivity extends AppCompatActivity {
         NOMBRE_DOCUMENTO=nombre.replaceAll(" ","")+documentodate.format(new Date())+".pdf";
         final String ncontrol=extras.getString("ncontrol");
         final String carrera=extras.getString("carrera");
-        final String asesor=extras.getString("asesor");
-        final String email=extras.getString("correo");
+        String asesora=extras.getString("asesor");
+        final String email=asesora.split(".HOLA.")[1];
+        final String asesor=asesora.split(".HOLA.")[0];
         final ProgressDialog progressDialog = new ProgressDialog(this);
 //        progressDialog.setTitle("Uploading...");
 //        progressDialog.show();
