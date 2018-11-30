@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -33,10 +33,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/7bc9e22fbd3f378ad701957d121c27d0/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -49,10 +49,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -65,10 +65,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -81,10 +81,10 @@
             ]
         },
         {
-            "outputFile": "C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\Y:\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -97,10 +97,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -113,10 +113,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -129,10 +129,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -145,10 +145,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
@@ -161,10 +161,26 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\Y:\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\xampp\\htdocs\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\C:\\Users\\odvil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\ef2273269647980b6503a88ae31eebae\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\Documents\\AppResidencia\\DenunciaPolicias\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "/Users/oswaldo/Documents/ResidenciaApp/AppResidencia/DenunciaPolicias/C:\\Users\\jorge\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\2d2c34cf62357a857b0d71756b482c6e\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

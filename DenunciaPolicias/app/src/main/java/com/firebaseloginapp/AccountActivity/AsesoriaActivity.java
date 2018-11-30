@@ -106,7 +106,9 @@ public class AsesoriaActivity extends AppCompatActivity {
         NOMBRE_DOCUMENTO=nombre.replaceAll(" ","")+documentodate.format(new Date())+".pdf";
         final String ncontrol=extras.getString("ncontrol");
         final String carrera=extras.getString("carrera");
-        final String asesor=extras.getString("asesor");
+        String asesora=extras.getString("asesor");
+        final String email=asesora.split(".HOLA.")[1];
+        final String asesor=asesora.split(".HOLA.")[0];
         final ProgressDialog progressDialog = new ProgressDialog(this);
 //        progressDialog.setTitle("Uploading...");
 //        progressDialog.show();
@@ -136,7 +138,7 @@ public class AsesoriaActivity extends AppCompatActivity {
                     Font font = FontFactory.getFont(FontFactory.HELVETICA, 28,
                             Font.BOLD, Color.black);
                     documento.add(new Paragraph("Datos del estudiante",font));
-                     font = FontFactory.getFont(FontFactory.HELVETICA, 22,
+                    font = FontFactory.getFont(FontFactory.HELVETICA, 22,
                             Font.BOLD, Color.black);
                     documento.add(new Paragraph("Nombre: "+nombre, font));
                     documento.add(new Paragraph("Numero de control: "+ncontrol, font));
@@ -197,7 +199,7 @@ public class AsesoriaActivity extends AppCompatActivity {
 
                     String id = refe.push().getKey();
 
-                    PojoDocumentos u = new PojoDocumentos(ncontrol,id,NOMBRE_DOCUMENTO);
+                    PojoDocumentos u = new PojoDocumentos(ncontrol,id,NOMBRE_DOCUMENTO,email);
                     refe.child(id).setValue(u);
                     startActivity(new Intent(AsesoriaActivity.this, AlumnoHome.class));
                     finish();
