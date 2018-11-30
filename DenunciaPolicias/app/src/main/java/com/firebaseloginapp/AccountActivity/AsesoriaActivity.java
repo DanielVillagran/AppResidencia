@@ -106,9 +106,7 @@ public class AsesoriaActivity extends AppCompatActivity {
         NOMBRE_DOCUMENTO=nombre.replaceAll(" ","")+documentodate.format(new Date())+".pdf";
         final String ncontrol=extras.getString("ncontrol");
         final String carrera=extras.getString("carrera");
-        String asesora=extras.getString("asesor");
-        final String email=asesora.split(".HOLA.")[1];
-        final String asesor=asesora.split(".HOLA.")[0];
+        final String asesor=extras.getString("asesor");
         final ProgressDialog progressDialog = new ProgressDialog(this);
 //        progressDialog.setTitle("Uploading...");
 //        progressDialog.show();
@@ -199,7 +197,7 @@ public class AsesoriaActivity extends AppCompatActivity {
 
                     String id = refe.push().getKey();
 
-                    PojoDocumentos u = new PojoDocumentos(ncontrol,id,NOMBRE_DOCUMENTO,email);
+                    PojoDocumentos u = new PojoDocumentos(ncontrol,id,NOMBRE_DOCUMENTO);
                     refe.child(id).setValue(u);
                     startActivity(new Intent(AsesoriaActivity.this, AlumnoHome.class));
                     finish();
