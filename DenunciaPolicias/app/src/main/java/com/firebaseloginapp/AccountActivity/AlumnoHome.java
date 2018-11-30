@@ -196,6 +196,7 @@ public class AlumnoHome extends Activity {
         }
         intent.putExtra("nombre", temporal.getNombre().trim()+"");
         intent.putExtra("ncontrol", temporal.getNcontrol().trim()+"");
+        intent.putExtra("email", temporal.getMaestro().trim()+"");
         intent.putExtra("carrera", temporal.getCarrera().trim()+"");
         intent.putExtra("asesor", maestros_temporal.getNombre().trim()+"");
         startActivity(intent);
