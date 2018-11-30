@@ -10,8 +10,8 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c83919a3-c901-481f-bb7c-738afcc5c19e" name="Default" comment="Primer commit usando la mamada de android studio">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="c83919a3-c901-481f-bb7c-738afcc5c19e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +40,10 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AlumnoHome.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="461">
-              <caret line="176" column="13" lean-forward="true" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
-              <folding />
+              <caret line="200" column="13" lean-forward="false" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+              <folding>
+                <marker date="1543547330549" expanded="true" signature="6419:6458" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,17 +52,27 @@
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="516">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RespuestaActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RespuestaActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/RespuestaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2091">
-              <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,20 +81,20 @@
       <file leaf-file-name="PojoDocumentos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoDocumentos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="187">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
-                <element signature="e#225#226#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#706#707#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1096#1097#0" expanded="true" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <marker date="1543547330564" expanded="true" signature="660:667" ph="{...}" />
+                <marker date="1543547330564" expanded="true" signature="761:838" ph="{...}" />
+                <marker date="1543547330564" expanded="true" signature="868:875" ph="{...}" />
+                <marker date="1543547330564" expanded="true" signature="908:919" ph=" { " />
+                <marker date="1543547330564" expanded="true" signature="935:941" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -91,13 +103,24 @@
       <file leaf-file-name="AsesoriaActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AsesoriaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="162" column="37" lean-forward="true" selection-start-line="162" selection-start-column="37" selection-end-line="162" selection-end-column="37" />
+            <state relative-caret-position="380">
+              <caret line="164" column="37" lean-forward="false" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
               <folding>
-                <element signature="e#4292#9128#0" expanded="true" />
-                <element signature="e#8146#8668#0" expanded="true" />
-                <element signature="e#8667#8668#0" expanded="true" />
-                <element signature="e#9127#9128#0" expanded="true" />
+                <marker date="1543547330549" expanded="true" signature="9229:9244" ph="}" />
+                <marker date="1543547330549" expanded="true" signature="9285:9890" ph="{...}" />
+                <marker date="1543547330549" expanded="true" signature="9969:10172" ph="{...}" />
+                <marker date="1543547330549" expanded="true" signature="10207:10795" ph="{...}" />
+                <marker date="1543547330549" expanded="true" signature="10894:11397" ph="{...}" />
+                <marker date="1543547330549" expanded="true" signature="11454:15160" ph="{...}" />
+                <marker date="1543547330549" expanded="false" signature="12546:12724" ph="(OnSuccessListener) (taskSnapshot) → {" />
+                <marker date="1543547330549" expanded="false" signature="12917:12948" ph="}" />
+                <marker date="1543547330549" expanded="false" signature="12996:13133" ph="(e) → {" />
+                <marker date="1543547330549" expanded="false" signature="13340:13371" ph="}" />
+                <marker date="1543547330549" expanded="false" signature="13420:13600" ph="(OnProgressListener) (taskSnapshot) → {" />
+                <marker date="1543547330549" expanded="false" signature="13883:13914" ph="}" />
+                <marker date="1543547330549" expanded="true" signature="14463:14882" ph="{...}" />
+                <marker date="1543547330549" expanded="true" signature="14567:14670" ph="{...}" />
+                <marker date="1543547330549" expanded="true" signature="14774:14864" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="397">
-              <caret line="264" column="41" lean-forward="true" selection-start-line="257" selection-start-column="32" selection-end-line="264" selection-end-column="41" />
+              <caret line="264" column="41" lean-forward="false" selection-start-line="257" selection-start-column="32" selection-end-line="264" selection-end-column="41" />
               <folding>
                 <element signature="e#5195#5203#0" expanded="true" />
                 <element signature="e#5483#5491#0" expanded="true" />
@@ -122,7 +145,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/DenunciasActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="85" column="48" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="48" />
+              <caret line="85" column="48" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -134,8 +157,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -2031,71 +2054,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DenunciaPolicias" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DenunciaPolicias" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AccountActivity" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DenunciaPolicias" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DenunciaPolicias" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.other.NonAndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2214,7 +2173,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543547259858" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543547576943" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2262,7 +2221,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543547259858" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543547576943" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2445,7 +2404,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543547259858" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1543547576943" />
       </method>
     </configuration>
     <list size="1">
@@ -2575,7 +2534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543529070868</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Primer commit usando la mamada de android studio">
+      <created>1543547272692</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1543547272692</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2688,7 +2654,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AsesoriaActivity.java</url>
-          <line>114</line>
+          <line>116</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -2857,14 +2823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_complete_info.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/ReadyAlumnosActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -2994,8 +2952,6 @@
           <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1691#1692#0" expanded="false" />
-            <element signature="e#1731#1732#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3046,8 +3002,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="153">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -3063,7 +3019,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/DenunciasActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="85" column="48" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="48" />
+          <caret line="85" column="48" lean-forward="false" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -3097,7 +3053,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AddAlumnoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
-          <caret line="264" column="41" lean-forward="true" selection-start-line="257" selection-start-column="32" selection-end-line="264" selection-end-column="41" />
+          <caret line="264" column="41" lean-forward="false" selection-start-line="257" selection-start-column="32" selection-end-line="264" selection-end-column="41" />
           <folding>
             <element signature="e#5195#5203#0" expanded="true" />
             <element signature="e#5483#5491#0" expanded="true" />
@@ -3109,33 +3065,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/PojoDocumentos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="187">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#706#707#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <marker date="1543547330564" expanded="true" signature="660:667" ph="{...}" />
+            <marker date="1543547330564" expanded="true" signature="761:838" ph="{...}" />
+            <marker date="1543547330564" expanded="true" signature="868:875" ph="{...}" />
+            <marker date="1543547330564" expanded="true" signature="908:919" ph=" { " />
+            <marker date="1543547330564" expanded="true" signature="935:941" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AsesoriaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="162" column="37" lean-forward="true" selection-start-line="162" selection-start-column="37" selection-end-line="162" selection-end-column="37" />
+        <state relative-caret-position="380">
+          <caret line="164" column="37" lean-forward="false" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
           <folding>
-            <element signature="e#4292#9128#0" expanded="true" />
-            <element signature="e#8146#8668#0" expanded="true" />
-            <element signature="e#8667#8668#0" expanded="true" />
-            <element signature="e#9127#9128#0" expanded="true" />
+            <marker date="1543547330549" expanded="true" signature="9229:9244" ph="}" />
+            <marker date="1543547330549" expanded="true" signature="9285:9890" ph="{...}" />
+            <marker date="1543547330549" expanded="true" signature="9969:10172" ph="{...}" />
+            <marker date="1543547330549" expanded="true" signature="10207:10795" ph="{...}" />
+            <marker date="1543547330549" expanded="true" signature="10894:11397" ph="{...}" />
+            <marker date="1543547330549" expanded="true" signature="11454:15160" ph="{...}" />
+            <marker date="1543547330549" expanded="false" signature="12546:12724" ph="(OnSuccessListener) (taskSnapshot) → {" />
+            <marker date="1543547330549" expanded="false" signature="12917:12948" ph="}" />
+            <marker date="1543547330549" expanded="false" signature="12996:13133" ph="(e) → {" />
+            <marker date="1543547330549" expanded="false" signature="13340:13371" ph="}" />
+            <marker date="1543547330549" expanded="false" signature="13420:13600" ph="(OnProgressListener) (taskSnapshot) → {" />
+            <marker date="1543547330549" expanded="false" signature="13883:13914" ph="}" />
+            <marker date="1543547330549" expanded="true" signature="14463:14882" ph="{...}" />
+            <marker date="1543547330549" expanded="true" signature="14567:14670" ph="{...}" />
+            <marker date="1543547330549" expanded="true" signature="14774:14864" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -3143,7 +3110,17 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/AlumnoHome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
-          <caret line="176" column="13" lean-forward="true" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
+          <caret line="200" column="13" lean-forward="false" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
+          <folding>
+            <marker date="1543547330549" expanded="true" signature="6419:6458" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/RespuestaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -3151,15 +3128,15 @@
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/firebaseloginapp/AccountActivity/RespuestaActivity.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
