@@ -37,6 +37,22 @@ public class AlumnoHome extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alumno_home);
         maestro= (TextView) findViewById(R.id.maestro);
+        auth = FirebaseAuth.getInstance();
+        for (PojoAlumnos p: pojoAlumnos){
+            if(auth.getCurrentUser().getEmail().trim().matches(p.getEmail().trim())){
+                temporal=p;
+                for(PojoMaestros m:pojoList){
+                    if(p.getMaestro().trim().matches(m.getEmail().trim())){
+                        maestro.setText("Tu asesor es: "+m.getNombre());
+                        maestros_temporal=m;
+                        break;
+
+                    }
+                }
+                break;
+            }
+
+        }
         ref.addChildEventListener(new ChildEventListener() {
 
 
@@ -149,6 +165,19 @@ public class AlumnoHome extends Activity {
 
             }
         });
+
+
+    }
+    public void cerrarsesion(View v){
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(AlumnoHome.this, LoginActivity.class));
+
+
+    }
+
+    public void create_doc(View view) {
+        Intent intent = new Intent(AlumnoHome.this, AsesoriaActivity.class);
+
         auth = FirebaseAuth.getInstance();
         for (PojoAlumnos p: pojoAlumnos){
             if(auth.getCurrentUser().getEmail().trim().matches(p.getEmail().trim())){
@@ -165,11 +194,6 @@ public class AlumnoHome extends Activity {
             }
 
         }
-
-    }
-
-    public void create_doc(View view) {
-        Intent intent = new Intent(AlumnoHome.this, AsesoriaActivity.class);
         intent.putExtra("nombre", temporal.getNombre().trim()+"");
         intent.putExtra("ncontrol", temporal.getNcontrol().trim()+"");
         intent.putExtra("carrera", temporal.getCarrera().trim()+"");

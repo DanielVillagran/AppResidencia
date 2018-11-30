@@ -172,7 +172,7 @@ public class ViewAlumnoActivity extends Activity {
 
                             String id = ref.push().getKey();
 
-                            PojoAlumnos u= new PojoAlumnos(id, nombre.getText().toString().trim(),ncontrol.getText().toString().trim(),maestro,"0",semestre.getSelectedItem().toString(), "",carrera.getSelectedItem().toString());
+                            PojoAlumnos u= new PojoAlumnos(id, nombre.getText().toString().trim(),ncontrol.getText().toString().trim(),maestro,email,"0",semestre.getSelectedItem().toString(), "",carrera.getSelectedItem().toString());
                             ref.child(id).setValue(u);
                             startActivity(new Intent(ViewAlumnoActivity.this, TeacherActivity.class));
                             finish();

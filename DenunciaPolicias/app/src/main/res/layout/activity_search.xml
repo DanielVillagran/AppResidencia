@@ -6,20 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".AccountActivity.SearchActivity">
 
+    <Spinner
+        android:id="@+id/carrera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="366dp"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/search_name" />
+        android:layout_below="@+id/carrera" />
 
-    <EditText
-        android:id="@+id/search_name"
+    <Button
+        android:id="@+id/buscar_carrera"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:ems="10"
-        android:inputType="textPersonName" />
+        android:layout_marginBottom="50dp"
+        android:onClick="buscar"
+        android:text="Buscar" />
 
 </RelativeLayout>

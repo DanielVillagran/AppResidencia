@@ -186,9 +186,12 @@ String usermail;
     public void buscar_alumnos(View v){
         startActivity(new Intent(TeacherActivity.this, SearchActivity.class));
     }
+    public void buscar_alumnos_2(View v){
+        startActivity(new Intent(TeacherActivity.this, SearchAllActivity.class));
+    }
     public void cerrarsesion(View v){
-        auth.signOut();
-        startActivity(new Intent(TeacherActivity.this, SignupActivity.class));
+        FirebaseAuth.getInstance().signOut();
+        startActivity(new Intent(TeacherActivity.this, LoginActivity.class));
 
 
     }

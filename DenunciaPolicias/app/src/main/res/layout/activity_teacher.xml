@@ -46,7 +46,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="buscar_alumnos"
-            android:text="Button" />
+            android:text="Buscar por Carrera" />
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buscar_alumnos_2"
+            android:text="Buscar por nombre" />
 
         <Button
             android:id="@+id/signout"

@@ -108,8 +108,8 @@ public class AsesoriaActivity extends AppCompatActivity {
         final String carrera=extras.getString("carrera");
         final String asesor=extras.getString("asesor");
         final ProgressDialog progressDialog = new ProgressDialog(this);
-        progressDialog.setTitle("Uploading...");
-        progressDialog.show();
+//        progressDialog.setTitle("Uploading...");
+//        progressDialog.show();
 
         final Button button = findViewById(R.id.btnImprimir);
         button.setOnClickListener(new View.OnClickListener() {

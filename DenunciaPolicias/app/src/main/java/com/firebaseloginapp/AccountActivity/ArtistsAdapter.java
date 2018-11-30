@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
 import com.firebaseloginapp.R;
+import com.google.firebase.auth.FirebaseAuth;
 
 
 import java.util.List;
@@ -37,6 +38,7 @@ public class ArtistsAdapter extends RecyclerView.Adapter<ArtistsAdapter.ArtistVi
     @Override
     public void onBindViewHolder(@NonNull ArtistViewHolder holder, int position) {
         PojoAlumnos artist = artistList.get(position);
+
         holder.nombre.setText("Nombre: "+artist.getNombre());
         holder.ncontrol.setText("Ncontrol: " + artist.getNcontrol());
         holder.carrera.setText("Carrera: " + artist.getCarrera());
@@ -58,7 +60,6 @@ public class ArtistsAdapter extends RecyclerView.Adapter<ArtistsAdapter.ArtistVi
     class ArtistViewHolder extends RecyclerView.ViewHolder {
 
         TextView nombre, ncontrol, carrera, semestre, status;
-        EditText search;
 
         public ArtistViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -68,7 +69,6 @@ public class ArtistsAdapter extends RecyclerView.Adapter<ArtistsAdapter.ArtistVi
             carrera = itemView.findViewById(R.id.carrera);
             semestre = itemView.findViewById(R.id.semestre);
             status = itemView.findViewById(R.id.status);
-            search = itemView.findViewById(R.id.search_name);
         }
     }
 }

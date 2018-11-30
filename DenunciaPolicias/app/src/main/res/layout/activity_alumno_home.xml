@@ -6,21 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".AccountActivity.AlumnoHome">
 
-    <Button
-        android:id="@+id/create_doc"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="215dp"
-        android:onClick="create_doc"
-        android:text="Crear Documento" />
-
-    <TextView
-        android:id="@+id/maestro"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:text="mestro" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/maestro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="mestro" />
+
+        <Button
+            android:id="@+id/create_doc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="215dp"
+            android:onClick="create_doc"
+            android:text="Crear Documento" />
+
+        <Button
+            android:id="@+id/signout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="cerrarsesion"
+            android:text="Salir" />
+
+    </LinearLayout>
+
 </RelativeLayout>
