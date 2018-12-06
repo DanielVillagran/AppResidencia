@@ -15,8 +15,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -197,7 +195,7 @@ public class AlumnoHome extends Activity {
         intent.putExtra("nombre", temporal.getNombre().trim()+"");
         intent.putExtra("ncontrol", temporal.getNcontrol().trim()+"");
         intent.putExtra("carrera", temporal.getCarrera().trim()+"");
-        intent.putExtra("asesor", maestros_temporal.getNombre().trim()+"");
+        intent.putExtra("asesor", maestros_temporal.getNombre().trim()+".HOLA."+maestros_temporal.getEmail().trim());
         startActivity(intent);
     }
 }

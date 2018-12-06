@@ -59,7 +59,9 @@
             android:id="@+id/signout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
             android:onClick="cerrarsesion"
-            android:text="Cerrar sesion" />
+            android:text="Cerrar sesion"
+            android:textColor="@color/white" />
     </LinearLayout>
 </RelativeLayout>

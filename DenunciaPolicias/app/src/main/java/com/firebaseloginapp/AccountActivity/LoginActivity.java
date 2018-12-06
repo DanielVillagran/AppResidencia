@@ -100,7 +100,9 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
-        if (auth.getCurrentUser() != null) {
+        auth = FirebaseAuth.getInstance();
+
+        if (auth.getCurrentUser() != null && !auth.getCurrentUser().getEmail().matches("") && pojoList.size() > 0) {
             boolean maestro=false;
             for (PojoMaestros p : pojoList){
                 if(auth.getCurrentUser().getEmail().trim().matches(p.getEmail().trim())){
@@ -126,7 +128,6 @@ public class LoginActivity extends AppCompatActivity {
         btnReset = (Button) findViewById(R.id.btn_reset_password);
 
         //Get Firebase auth instance
-        auth = FirebaseAuth.getInstance();
 
         btnSignup.setOnClickListener(new View.OnClickListener() {
             @Override

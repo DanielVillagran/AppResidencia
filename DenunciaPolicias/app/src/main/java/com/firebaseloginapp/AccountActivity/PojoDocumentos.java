@@ -7,6 +7,22 @@ package com.firebaseloginapp.AccountActivity;
 public class PojoDocumentos {
     private String ncontrol;
     private String id;
+    private String email;
+
+    public PojoDocumentos(String ncontrol, String id, String email, String documento) {
+        this.ncontrol = ncontrol;
+        this.id = id;
+        this.email = email;
+        this.documento = documento;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public String getId() {
         return id;
