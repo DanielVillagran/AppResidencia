@@ -1,0 +1,4 @@
+#Thu May 17 08:15:47 CDT 2018
+base.0=Y\:\\DenunciaCiudadana\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\106
+path.0=classes.dex
+renamed.0=classes.dex
